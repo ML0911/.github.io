@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ml0911.github.io/"/>
-  <updated>2020-04-14T04:22:27.626Z</updated>
+  <updated>2020-04-14T04:29:04.186Z</updated>
   <id>https://ml0911.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://ml0911.github.io/2020/04/14/PHP%E7%AC%AC%E4%B9%9D%E5%91%A8%E4%BD%9C%E4%B8%9A/"/>
     <id>https://ml0911.github.io/2020/04/14/PHP%E7%AC%AC%E4%B9%9D%E5%91%A8%E4%BD%9C%E4%B8%9A/</id>
     <published>2020-04-14T03:32:16.000Z</published>
-    <updated>2020-04-14T04:22:27.626Z</updated>
+    <updated>2020-04-14T04:29:04.186Z</updated>
     
-    <content type="html"><![CDATA[<p>1、    简述MySQL数据库的发展历程。</p><p>(1)70年代,引进数据库,1976年萨师煊教授引进<br> (2)80年代,请进来,走出去;引进国外数据库人才,派遣国内专家去学习<br> (3)90年代,应用数据进行研究,开发资金的数据库<br> (4)21世纪,用数据库进行创新研究、产品开发、应用集成</p><p>   <a id="more"></a></p><p>2、    MySQL数据库的优点有哪些?</p><p>(1)使用标准的结构化查询语言——SQL访问数据库。<br><br>(2)开源软件、完全免费。<br><br>(3)服务器功能齐全，运行速度快，安全性高。<br><br>(4)支持多线程及多个不同的客户程序和管理工具。<br><br>(5)支持跨平台移植，无需修改。<br><br>(6)为多种程序设计语言提供支持，包括PHP、 ASP.NET. Java、Python、Ruby、 Tcl、 C、 C++、Perl语言等。<br></p><p>3、创建数据库student、创建表stu_info（提交mySQL代码）</p>1、浏览器：localhost:8089/phpmyadmin/![](/images/PHP9/1.png)2、![](/images/PHP9/2.png)3、单击执行<br>![](/images/PHP9/3.png)4、![](/images/PHP9/4.png)5、导出之后的界面就是SQL代码![](/images/PHP9/5.png)]]></content>
+    <content type="html"><![CDATA[<p>1、    简述MySQL数据库的发展历程。</p><p>(1)70年代,引进数据库,1976年萨师煊教授引进<br> (2)80年代,请进来,走出去;引进国外数据库人才,派遣国内专家去学习<br> (3)90年代,应用数据进行研究,开发资金的数据库<br> (4)21世纪,用数据库进行创新研究、产品开发、应用集成</p><p>   <a id="more"></a></p><p>2、    MySQL数据库的优点有哪些?</p><p>(1)使用标准的结构化查询语言——SQL访问数据库。<br><br>(2)开源软件、完全免费。<br><br>(3)服务器功能齐全，运行速度快，安全性高。<br><br>(4)支持多线程及多个不同的客户程序和管理工具。<br><br>(5)支持跨平台移植，无需修改。<br><br>(6)为多种程序设计语言提供支持，包括PHP、 ASP.NET. Java、Python、Ruby、 Tcl、 C、 C++、Perl语言等。<br></p><p>3、创建数据库student、创建表stu_info（提交mySQL代码）</p>]]></content>
     
     <summary type="html">
     
