@@ -39,11 +39,6 @@
       
 <section class="cover">
     
-      
-      <a class="forkMe" href="https://github.com/Shen-Yu/hexo-theme-ayer"
-        target="_blank"><img width="149" height="149" src="/images/forkme.png"
-          class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
-    
   <div class="cover-frame">
     <div class="bg-box">
       <img src="/images/cover1.jpg" alt="image frame" />
@@ -105,21 +100,6 @@
     
 
     
-    <div class="article-entry" itemprop="articleBody">
-      
-      
-
-      
-      <h3>1、简述Windows系统权限、安全标识符、注册表的概念，注册表的作用。<br></h3>
-（1）Windows系统权限：用户权限：登录权限：账户通过身份验证前所具备的权限；
-操作权限：账户通过身份验证之后所具备的权限，利用权限可以控制资源被访问的方式，
-      
-      <a class="article-more-link" href="/2020/04/15/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A89/">阅读更多...</a>
-      
-      
-      <!-- reward -->
-      
-    </div>
     
     
       <!-- copyright -->
@@ -175,21 +155,6 @@
     
 
     
-    <div class="article-entry" itemprop="articleBody">
-      
-      
-
-      
-      <h3>1、    简述MySQL数据库的发展历程。<br></h3>
-
-<p> (1)70年代,引进数据库,1976年萨师煊教授引进<br><br></p>
-      
-      <a class="article-more-link" href="/2020/04/14/PHP%E7%AC%AC%E4%B9%9D%E5%91%A8%E4%BD%9C%E4%B8%9A/">阅读更多...</a>
-      
-      
-      <!-- reward -->
-      
-    </div>
     
     
       <!-- copyright -->
@@ -245,17 +210,6 @@
     
 
     
-    <div class="article-entry" itemprop="articleBody">
-      
-      
-
-      
-      <p>Welcome to <a href="https://ml0911.github.io/">blog</a>! </p>
-<h3 id="测试使用"><a href="#测试使用" class="headerlink" title="测试使用"></a>测试使用</h3>
-      
-      <!-- reward -->
-      
-    </div>
     
     
       <!-- copyright -->
@@ -365,10 +319,6 @@
 <nav class="navbar navbar-bottom">
   <ul class="nav">
     <li class="nav-item">
-      
-      <a class="nav-item-link nav-item-search"  title="搜索">
-        <i class="ri-search-line"></i>
-      </a>
       
       
       <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
@@ -605,9 +555,41 @@
 
 
 
-
     
   </div>
+<strong>
+<center>
+<span id="momk"></span><span id="momk" style="color: #ff0000;"></span>
+<script type="text/javascript">
+function NewDate(str) {
+str = str.split('-');
+var date = new Date();
+date.setUTCFullYear(str[0], str[1] - 1, str[2]);
+date.setUTCHours(0, 0, 0, 0);
+return date;
+}
+function momxc() {
+var birthDay =NewDate("2020-4-12");
+var today=new Date();
+var timeold=today.getTime()-birthDay.getTime();
+var sectimeold=timeold/1000
+var secondsold=Math.floor(sectimeold);
+var msPerDay=24*60*60*1000; var e_daysold=timeold/msPerDay;
+var daysold=Math.floor(e_daysold);
+var e_hrsold=(daysold-e_daysold)*-24;
+var hrsold=Math.floor(e_hrsold);
+var e_minsold=(hrsold-e_hrsold)*-60;
+var minsold=Math.floor((hrsold-e_hrsold)*-60); var seconds=Math.floor((minsold-e_minsold)*-60).toString();
+document.getElementById("momk").innerHTML = "本站已安全运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+setTimeout(momxc, 1000);
+}momxc();
+</script> <style>
+#momk{animation:change 10s infinite;font-weight:800; }
+@keyframes change{0%{color:#5cb85c;}25%{color:#556bd8;}50%{color:#e40707;}75%{color:#66e616;}100% {color:#67bd31;}}
+</style></center>
+
+    </strong>
+
 </body>
 
 </html>
