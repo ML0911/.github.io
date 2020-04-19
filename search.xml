@@ -1,25 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>PHP9</title>
-    <url>/2020/04/14/PHP%E7%AC%AC%E4%B9%9D%E5%91%A8%E4%BD%9C%E4%B8%9A/</url>
-    <content><![CDATA[<h3>1、    简述MySQL数据库的发展历程。<br></h3>
-
-<p> (1)70年代,引进数据库,1976年萨师煊教授引进<br><br> <a id="more"></a><br> (2)80年代,请进来,走出去;引进国外数据库人才,派遣国内专家去学习<br><br> (3)90年代,应用数据进行研究,开发资金的数据库<br><br> (4)21世纪,用数据库进行创新研究、产品开发、应用集成<br></p>
-<h3>2、    MySQL数据库的优点有哪些?<br></h3>
-
-<p>(1)使用标准的结构化查询语言——SQL访问数据库。<br><br>(2)开源软件、完全免费。<br><br>(3)服务器功能齐全，运行速度快，安全性高。<br><br>(4)支持多线程及多个不同的客户程序和管理工具。<br><br>(5)支持跨平台移植，无需修改。<br><br>(6)为多种程序设计语言提供支持，包括PHP、 ASP.NET. Java、Python、Ruby、 Tcl、 C、 C++、Perl语言等。<br></p>
-<h3>3、创建数据库student、创建表stu_info（提交mySQL代码）<br></h3>
-<p align="right">
+    <title>Hello World</title>
+    <url>/2020/04/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://ml0911.github.io/">blog</a>! </p>
+<h3 id="测试使用"><a href="#测试使用" class="headerlink" title="测试使用"></a>测试使用</h3><p align="right">
 <span id="busuanzi_container_page_pv">
   本文总阅读量<span id="busuanzi_value_page_pv"></span>次
 </span></p>]]></content>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/04/13/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://ml0911.github.io/">blog</a>! </p>
-<h3 id="测试使用"><a href="#测试使用" class="headerlink" title="测试使用"></a>测试使用</h3><p align="right">
+    <title>网络管理10</title>
+    <url>/2020/04/19/%E7%BB%9C%E7%AE%A1%E7%90%8610/</url>
+    <content><![CDATA[<h4><p>1.访问控制列表适用于?<br></p></h4>
+C C. 所有网络,如IP、IPX<p></p>
+
+<h4><p>2.访问列表是路由器的一种安全策略,你决定用一个标准ip访问列表来做安全控制，以下为标准访问列表的例子为?<br></p></h4>
+B B. access-list 10 deny 192.168.10.23 0.0.0.0<p></p>
+
+<h4><p>3.下列哪些访问列表范围符合IP范围的扩展访问控制列表?<br></p></h4>
+B B. 100-199<p></p>
+
+<h4><p>4.锐捷交换机采用访问控制列表描述正确的是?<br></p></h4>
+D D.交换机上必须采用命名方式的ACL<p></p>
+
+<h4><p>5.写出标准IP ACL可以进行匹配的项目<br></p></h4>
+DD.以上都不是
+<p></p>
+
+<h4><p>6.当端口由于违规操作而进入"err-disabled"状态后，使用什么命令手工将其恢复为UP状态?<br></p></h4>
+A A.errdisable recovery<p></p>
+
+<h4><p>7.在访问控制列表中地址和掩码为168.18.64.0 0.0.3.255示的IP地址范围是()?<br></p></h4>
+B B.168.18.64.0~ 168.18.67.255<p></p>
+
+<h4><p>8.对于IP访问控制列表描述正确的是?<br></p></h4>
+D D.匹配成功马上停止
+<p></p>
+
+<h4><p>9.当学生A两台Star-R2624 路由器在做路由器广域网口连通实验时误将本端路由器V.35线缆的插头插倒了。结果发现ping直连的路由器不通，请问此时查看本端路由器的状态应该是?<br></p></h4>
+CC、Serial 0 is down，line protocol is down<p></p>
+
+<h4><p>10.输出"Encapsulation PPP,LCP OPEN OpenIPCP,CCP,CDCP,loopback not set "的说法正确的是?<br></p></h4>
+D D.数据可经过此链路传输<p></p>
+
+<h4><p>11.FTP服务器的iP地址在192 1620.02子网内，为了保证FP服务器的安全，不允许任何用户telnet到该FTP服务器,则需要配的访问列表条目为?<br></p></h4>
+D D.access-list 110 deny tcp any 192.168.20.0 0.0.0
+<p></p>
+
+<h4><p>12.以下为标准访问列表选项是?<br></p></h4>
+C C、access-list 1 permit 172.168.10.198 255.255.0.0<p></p>
+
+<h4><p>13.R2624路由器如何验证接口的ACL应用?<br></p></h4>
+DD. show acess-list<p></p>
+
+<h4><p>14.在网络中，为保证192.168.10.0/24网络中WWW服务器的安全,我们只允许访问WEB服务,现在采用访问控制列表来实现，正确是?<br></p></h4>
+A A、access-list 100 permit tcp any 192.168.10.0 0.0.0.255 eq www
+<p></p>
+
+<h4><p>15.下列哪项不是交换机端口安全的基本功能?<br></p></h4>
+BB.数据包过滤<p></p>
+
+<h4><p>16.下列哪项不是关于交换机端口安全的描述?<br></p></h4>
+B B.端口安全功能只能在aggregate端口上进行配置<p></p>
+
+<h4><p>17.以下情况可以使用访问控制列表准确描述的是?<br></p></h4>
+C C.禁止所有使用Telnet的用户访问我的主机<p></p>
+
+<h4><p>18.下列条件中，能用作标准ACL决定报文是转发或还是丢弃的匹配条件有?<br></p></h4>
+A A.源主机IP<p></p>
+
+<h4><p>19.你刚创建了一个扩展访问列表101,现在你想把它应用到接口上,通过以下哪条命令可以把它应用到接口上?<br></p></h4>
+B B.ip access-group 101 out<p></p>
+
+<h4><p>20.在访问列表中有一条规则如下:access-list 131 prmit ip any192.168.10.0 0.0.0.255 eq ftp在该规则中，any的意思是表示:<br></p></h4>
+C C.允许所有的源地址; D.允许255.255.255.255 0.0.0.1<p></p>
+
+<h4><p>21.配置pap验证客户端的命令有?<br></p></h4>
+A.RA(config-if)#encapsulationppp;
+
+<p>B.RA(configif)#pppauthenatication pap</p><p></p>
+<h4><p>22.关于输出"PPP: IPCP_ reqci: return CONFACK'的说法正确的有?<br></p></h4>
+A A.LCP协商已成功完成
+
+<p>B B.路由器已同意IP参数</p><p></p>
+<h4><p>23.在锐捷系列交换上,端口安全的默认配置有哪些?<br></p></h4>
+AA.默认为关闭端口安全
+
+<p>BB.最大安全地址个数是128</p>
+<p>CC.没有安全地址</p><p></p>
+<h4><p>24. 配置端口安全存在哪些限制?<br></p></h4>
+A.一个安全端口必须是一个 Access 端口，及连接终端设备的端口， 而非 Trunk 端口;
+
+<p>  B.一个安全端口不能是一个聚合端口（Aggregate Port）;</p>
+<p>  C.一个安全端口不能是 SPAN 的目的端口</p><p></p>
+<h4><p>25.访问控制列表具有哪些作用?</p></h4>
+A A.安全控制
+
+<p>B B.流量控制</p>
+<p>C C.数据流量标识</p><p></p>
+<h4><p>26.IP访问列表分为哪两类?<br></p></h4>
+A A.标准访问列表
+
+<p>D D.扩展访问列表</p><p></p>
+<p align="right">
 <span id="busuanzi_container_page_pv">
   本文总阅读量<span id="busuanzi_value_page_pv"></span>次
 </span></p>]]></content>
@@ -49,6 +133,21 @@ User组成员对某个资源拥有“读取”操作权限、Administrators组�
 <p></p><h3>5、简述数据库系统安全含义。（选学）<br></h3>
 数据库系统安全是指为数据库系统建立安全保护措施，以保护数据库系统软件和其中的数据不因偶然和恶意的原因而遭到破坏、更改和泄漏。<br>
 
+<p align="right">
+<span id="busuanzi_container_page_pv">
+  本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+</span></p>]]></content>
+  </entry>
+  <entry>
+    <title>PHP9</title>
+    <url>/2020/04/14/PHP%E7%AC%AC%E4%B9%9D%E5%91%A8%E4%BD%9C%E4%B8%9A/</url>
+    <content><![CDATA[<h3>1、    简述MySQL数据库的发展历程。<br></h3>
+
+<p> (1)70年代,引进数据库,1976年萨师煊教授引进<br><br> <a id="more"></a><br> (2)80年代,请进来,走出去;引进国外数据库人才,派遣国内专家去学习<br><br> (3)90年代,应用数据进行研究,开发资金的数据库<br><br> (4)21世纪,用数据库进行创新研究、产品开发、应用集成<br></p>
+<h3>2、    MySQL数据库的优点有哪些?<br></h3>
+
+<p>(1)使用标准的结构化查询语言——SQL访问数据库。<br><br>(2)开源软件、完全免费。<br><br>(3)服务器功能齐全，运行速度快，安全性高。<br><br>(4)支持多线程及多个不同的客户程序和管理工具。<br><br>(5)支持跨平台移植，无需修改。<br><br>(6)为多种程序设计语言提供支持，包括PHP、 ASP.NET. Java、Python、Ruby、 Tcl、 C、 C++、Perl语言等。<br></p>
+<h3>3、创建数据库student、创建表stu_info（提交mySQL代码）<br></h3>
 <p align="right">
 <span id="busuanzi_container_page_pv">
   本文总阅读量<span id="busuanzi_value_page_pv"></span>次
