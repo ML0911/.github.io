@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>PHP10</title>
-    <url>/2020/04/21/P10/</url>
-    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
-<a id="more"></a>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="php"><span class="meta">&lt;?php</span> </span></span><br><span class="line"><span class="php">$conn = mysql_connect(<span class="string">"localhost"</span>,<span class="string">"root"</span> ,<span class="string">""</span>);</span></span><br><span class="line"><span class="php">mysql_query(<span class="string">" set names 'utf8' "</span>);</span></span><br><span class="line"><span class="php">mysql_select_db(<span class="string">"student"</span> ,$conn);</span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br><span class="line"><span class="php"><span class="meta">&lt;?php</span> </span></span><br><span class="line"><span class="php">$sql=<span class="string">"select * from stu_info"</span>;</span></span><br><span class="line"><span class="php">$result=mysql_query($sql,$conn);</span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span> <span class="meta-keyword">PUBLIC</span> <span class="meta-string">"-//W3C//DTD XHTML 1.0 Transitional//EN"</span> <span class="meta-string">"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">xmlns</span>=<span class="string">"http://www.w3.org/1999/xhtml"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"Content-Type"</span> <span class="attr">content</span>=<span class="string">"text/html; charset=utf-8"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>无标题文档<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span></span><br><span class="line"><span class="css"><span class="selector-class">.a1</span> &#123;</span></span><br><span class="line"><span class="css">	<span class="selector-tag">background-color</span>: <span class="selector-id">#0FF</span>;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">table</span> <span class="attr">width</span>=<span class="string">"400"</span> <span class="attr">border</span>=<span class="string">"1"</span> <span class="attr">align</span>=<span class="string">"center"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span>学生信息表<span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span>  <span class="attr">class</span>=<span class="string">"a1"</span> <span class="attr">align</span>=<span class="string">"center"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>学号<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>姓名<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>性别<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>年龄<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>地址<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">while</span>($row=mysql_fetch_array($result))&#123; <span class="meta">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span> <span class="attr">align</span>=<span class="string">"center"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_id"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_name"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_sex"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_age"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_addr"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="php"><span class="meta">&lt;?php</span> &#125; <span class="meta">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-]]></content>
-  </entry>
-  <entry>
     <title>PHP11</title>
     <url>/2020/04/28/PHP11/</url>
     <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
@@ -29,13 +19,17 @@
 ]]></content>
   </entry>
   <entry>
-    <title>【软件分享】</title>
-    <url>/2020/04/30/%E3%80%90%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E3%80%91/</url>
+    <title>PHP9</title>
+    <url>/2020/04/14/PHP%E7%AC%AC%E4%B9%9D%E5%91%A8%E4%BD%9C%E4%B8%9A/</url>
     <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
 <a id="more"></a>
+<h3>1、    简述MySQL数据库的发展历程。<br></h3>
 
-<p>[<strong>软件名称</strong>]  搜书大师<br>[<strong>软件版本</strong>]  v20.10<br>[<strong>软件大小</strong>]  12.5M<br>[<strong>软件包名</strong>]  com.flyersoft.seebooks<br>[<strong>软件优势</strong>]  <img src="https://s1.ax1x.com/2020/05/02/JjHcY8.jpg" alt="JjHcY8.jpg"><br>[<strong>下载链接</strong>]  <a href="https://wh0911.lanzous.com/ic3xcxi" target="_blank" rel="noopener">https://wh0911.lanzous.com/ic3xcxi</a><br>[<strong>图文介绍</strong>]<br>●超级搜书, 一网打尽<br>你喜欢的书都能搜到, 打开即看, 无须等待<br>●海量书籍, 应有尽有<br>整合上百家内容平台, 几千万本书免费阅读<br>[<strong>新版特性</strong>]<br>v20.10<br>●新增热门书籍排行榜<br>●书单增加标签属性及类型数目<br>●书籍详情增加字数/更新日期/类型等信息<br>●优化会员积分和签到<br>●更新书源资料<br>●改进书单评论区操作<br>●点用户头像可查看该用户最近动态<br>●发帖|跟帖内容支持 HTML风格<br>●新增主题书单板块<br>●新增综合讨论板块<br>●新增书荒互助板块<br>●新增精彩书评板块</p>
-<p><img src="https://s1.ax1x.com/2020/05/02/JjHrwt.png" alt="JjHrwt.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjH6Ff.png" alt="JjH6Ff.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHDeI.png" alt="JjHDeI.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHsTP.png" alt="JjHsTP.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHgfS.png" alt="JjHgfS.png"></p>
+<p> (1)70年代,引进数据库,1976年萨师煊教授引进<br><br> (2)80年代,请进来,走出去;引进国外数据库人才,派遣国内专家去学习<br><br> (3)90年代,应用数据进行研究,开发资金的数据库<br><br> (4)21世纪,用数据库进行创新研究、产品开发、应用集成<br></p>
+<h3>2、    MySQL数据库的优点有哪些?<br></h3>
+
+<p>(1)使用标准的结构化查询语言——SQL访问数据库。<br><br>(2)开源软件、完全免费。<br><br>(3)服务器功能齐全，运行速度快，安全性高。<br><br>(4)支持多线程及多个不同的客户程序和管理工具。<br><br>(5)支持跨平台移植，无需修改。<br><br>(6)为多种程序设计语言提供支持，包括PHP、 ASP.NET. Java、Python、Ruby、 Tcl、 C、 C++、Perl语言等。<br></p>
+<h3>3、创建数据库student、创建表stu_info（提交mySQL代码）<br></h3>
 ]]></content>
   </entry>
   <entry>
@@ -50,13 +44,6 @@
 <h4> 2、资源共享站：04月25日09:30至04月26日19:30，维护升级期间网站暂停访问。</h4><br>
 对于系统维护升级给您带来的不便，敬请谅解，感谢大家的支持和配合。
 
-]]></content>
-  </entry>
-  <entry>
-    <title>关于图片显示问题的通知</title>
-    <url>/2020/05/01/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98%E7%9A%84%E9%80%9A%E7%9F%A5/</url>
-    <content><![CDATA[<p><strong>2020-05-01 19:48</strong></p>
-<p><strong>因网站代码重构，导致网站图片显示错误，现在正在紧急处理中，给您带来的不便，敬请谅解，感谢大家的支持和配合。</strong></p>
 ]]></content>
   </entry>
   <entry>
@@ -181,34 +168,6 @@ A A.标准访问列表
 ]]></content>
   </entry>
   <entry>
-    <title>网络安全9</title>
-    <url>/2020/04/15/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A89/</url>
-    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
-<a id="more"></a>
-<h3>1、简述Windows系统权限、安全标识符、注册表的概念，注册表的作用。<br></h3>
-（1）Windows系统权限：用户权限：登录权限：账户通过身份验证前所具备的权限；
-操作权限：账户通过身份验证之后所具备的权限，利用权限可以控制资源被访问的方式，
-User组成员对某个资源拥有“读取”操作权限、Administrators组成员拥有“读取+写入+删除”操作权限。<br>
-（2）安全标识符：在Windows系统中，系统是通过安全标识符（SID）对用户进行识别的，SID可以应用于系统内的所有用户、组、服务或计算机，因为SID是一个具有惟一性、绝对不会重复产生的数值。<br>
-（3）注册表的概念：注册表是存储计算机的配置信息的数据容器<br>
-（4）注册表的作用：在系统中，注册表是一个记录32位驱动的设置和位置的数据库。当操作系统需要存取硬件设备，它使用驱动程序，甚至设备是一个BIOS支持的设备。<br>
-
-<p></p><h3>2、简述Linux系统的权限模型和安全访问。（选学）<br></h3>
-（1）权限模型： Linux系统是一个多用户多任务的分时操作系统，任何一个要使用系统资源的用户，都必须首先向系统管理员申请一个账号，然后以这个账号的身份进入系统。用户的账号一方面可以帮助系统管理员对使用系统的用户进行跟踪，并控制他们对系统资源的访问;另一方面也可以帮助用户组织文件，并为用户提供安全性保护。每个用户账号都拥有一个惟一的用户名和各自的口令。用户在登录时键入正确的用户名和口令后，就能够进入系统和自己的主目录。<br>
-（2）安全访问：xinetd是管理其他网络服务守护进程如telnet、pop3、imap等的守护进程，xinetd的主要配置文件是/ etc/ xinetd.conf,并且提供一个配置目录/ etc/xinetd.d<br>
-<h3>3、简述系统口令破解中字典破解、暴力破解概念。<br></h3>
-（1）字典破解：字典破解指通过破解者对管理员的了解，猜测其可能使用某些信息作为密码，同时结合对密码长度的猜测，利用工具来生成密码破解字典。<br>
-（2）暴力破解：暴力破解指对密码可能使用的字符和长度进行设定后，对所有可能的密码组合逐个实验。<br>
-<p></p><h3>4、简述Web服务器安全设置的内容<br></h3>
-(1) Windows IIs 安全设置：Internet信息服务器(即Internet Information Server, 简称IIS)是 用户创建信息服务器的最重要的组件，最新的版本是Windows 2003中包含的IIS 6.0。与Window NT Server完全集成在- -起，因而能够利用Windows NT Server和NTFS(NT File System，NT的文件系统)内置的安全特性，建立强大、灵活且安全的Internet和Intranet站点。<br>
-(2) linux apache安全设置：Apache服务器是Internet中应用最为广泛的Web服务器软件之一。Apache服务器源自美国国家超级技术计算应用中心(NCSA) 的Web服务器项目，需经过精心配置后，才能使它适应高负荷，大吞吐量的互联网工作。Apache利用配置文件/etc/httpd/conf/ httpd.conf进行参数配置及其虚拟目录的管理。<br>
-
-<p></p><h3>5、简述数据库系统安全含义。（选学）<br></h3>
-数据库系统安全是指为数据库系统建立安全保护措施，以保护数据库系统软件和其中的数据不因偶然和恶意的原因而遭到破坏、更改和泄漏。<br>
-
-]]></content>
-  </entry>
-  <entry>
     <title>网络安全11</title>
     <url>/2020/04/29/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A811/</url>
     <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
@@ -236,17 +195,30 @@ User组成员对某个资源拥有“读取”操作权限、Administrators组�
 ]]></content>
   </entry>
   <entry>
-    <title>PHP9</title>
-    <url>/2020/04/14/PHP%E7%AC%AC%E4%B9%9D%E5%91%A8%E4%BD%9C%E4%B8%9A/</url>
+    <title>【软件分享】</title>
+    <url>/2020/04/30/%E3%80%90%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E3%80%91/</url>
     <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
 <a id="more"></a>
-<h3>1、    简述MySQL数据库的发展历程。<br></h3>
 
-<p> (1)70年代,引进数据库,1976年萨师煊教授引进<br><br> (2)80年代,请进来,走出去;引进国外数据库人才,派遣国内专家去学习<br><br> (3)90年代,应用数据进行研究,开发资金的数据库<br><br> (4)21世纪,用数据库进行创新研究、产品开发、应用集成<br></p>
-<h3>2、    MySQL数据库的优点有哪些?<br></h3>
+<p>[<strong>软件名称</strong>]  搜书大师<br>[<strong>软件版本</strong>]  v20.10<br>[<strong>软件大小</strong>]  12.5M<br>[<strong>软件包名</strong>]  com.flyersoft.seebooks<br>[<strong>软件优势</strong>]  <img src="https://s1.ax1x.com/2020/05/02/JjHcY8.jpg" alt="JjHcY8.jpg"><br>[<strong>下载链接</strong>]  <a href="https://wh0911.lanzous.com/ic3xcxi" target="_blank" rel="noopener">https://wh0911.lanzous.com/ic3xcxi</a><br>[<strong>图文介绍</strong>]<br>●超级搜书, 一网打尽<br>你喜欢的书都能搜到, 打开即看, 无须等待<br>●海量书籍, 应有尽有<br>整合上百家内容平台, 几千万本书免费阅读<br>[<strong>新版特性</strong>]<br>v20.10<br>●新增热门书籍排行榜<br>●书单增加标签属性及类型数目<br>●书籍详情增加字数/更新日期/类型等信息<br>●优化会员积分和签到<br>●更新书源资料<br>●改进书单评论区操作<br>●点用户头像可查看该用户最近动态<br>●发帖|跟帖内容支持 HTML风格<br>●新增主题书单板块<br>●新增综合讨论板块<br>●新增书荒互助板块<br>●新增精彩书评板块</p>
+<p><img src="https://s1.ax1x.com/2020/05/02/JjHrwt.png" alt="JjHrwt.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjH6Ff.png" alt="JjH6Ff.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHDeI.png" alt="JjHDeI.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHsTP.png" alt="JjHsTP.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHgfS.png" alt="JjHgfS.png"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>关于图片显示问题的通知</title>
+    <url>/2020/05/01/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98%E7%9A%84%E9%80%9A%E7%9F%A5/</url>
+    <content><![CDATA[<p><strong>2020-05-01 19:48</strong></p>
+<p><strong>因网站代码重构，导致网站图片显示错误，现在正在紧急处理中，给您带来的不便，敬请谅解，感谢大家的支持和配合。</strong></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>PHP10</title>
+    <url>/2020/04/21/P10/</url>
+    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
+<a id="more"></a>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="php"><span class="meta">&lt;?php</span> </span></span><br><span class="line"><span class="php">$conn = mysql_connect(<span class="string">"localhost"</span>,<span class="string">"root"</span> ,<span class="string">""</span>);</span></span><br><span class="line"><span class="php">mysql_query(<span class="string">" set names 'utf8' "</span>);</span></span><br><span class="line"><span class="php">mysql_select_db(<span class="string">"student"</span> ,$conn);</span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br><span class="line"><span class="php"><span class="meta">&lt;?php</span> </span></span><br><span class="line"><span class="php">$sql=<span class="string">"select * from stu_info"</span>;</span></span><br><span class="line"><span class="php">$result=mysql_query($sql,$conn);</span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span> <span class="meta-keyword">PUBLIC</span> <span class="meta-string">"-//W3C//DTD XHTML 1.0 Transitional//EN"</span> <span class="meta-string">"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">xmlns</span>=<span class="string">"http://www.w3.org/1999/xhtml"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"Content-Type"</span> <span class="attr">content</span>=<span class="string">"text/html; charset=utf-8"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>无标题文档<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span></span><br><span class="line"><span class="css"><span class="selector-class">.a1</span> &#123;</span></span><br><span class="line"><span class="css">	<span class="selector-tag">background-color</span>: <span class="selector-id">#0FF</span>;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">table</span> <span class="attr">width</span>=<span class="string">"400"</span> <span class="attr">border</span>=<span class="string">"1"</span> <span class="attr">align</span>=<span class="string">"center"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span>学生信息表<span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span>  <span class="attr">class</span>=<span class="string">"a1"</span> <span class="attr">align</span>=<span class="string">"center"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>学号<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>姓名<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>性别<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>年龄<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>地址<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">while</span>($row=mysql_fetch_array($result))&#123; <span class="meta">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span> <span class="attr">align</span>=<span class="string">"center"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_id"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_name"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_sex"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_age"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_addr"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="php"><span class="meta">&lt;?php</span> &#125; <span class="meta">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-<p>(1)使用标准的结构化查询语言——SQL访问数据库。<br><br>(2)开源软件、完全免费。<br><br>(3)服务器功能齐全，运行速度快，安全性高。<br><br>(4)支持多线程及多个不同的客户程序和管理工具。<br><br>(5)支持跨平台移植，无需修改。<br><br>(6)为多种程序设计语言提供支持，包括PHP、 ASP.NET. Java、Python、Ruby、 Tcl、 C、 C++、Perl语言等。<br></p>
-<h3>3、创建数据库student、创建表stu_info（提交mySQL代码）<br></h3>
+
 ]]></content>
   </entry>
   <entry>
@@ -258,6 +230,34 @@ User组成员对某个资源拥有“读取”操作权限、Administrators组�
 <hr>
 
 <p><img src="https://s1.ax1x.com/2020/05/02/JjbSTx.png" alt="JjbSTx.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbk1e.png" alt="Jjbk1e.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbA6H.png" alt="JjbA6H.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbEXd.png" alt="JjbEXd.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbZnA.png" alt="JjbZnA.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbe0I.png" alt="Jjbe0I.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbm7t.png" alt="Jjbm7t.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbuAP.png" alt="JjbuAP.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbKtf.png" alt="JjbKtf.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbMh8.png" alt="JjbMh8.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbl9S.png" alt="Jjbl9S.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjb11g.png" alt="Jjb11g.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjb3cQ.png" alt="Jjb3cQ.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbYBn.png" alt="JjbYBn.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbJns.png" alt="JjbJns.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbt7q.png" alt="Jjbt7q.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbUA0.png" alt="JjbUA0.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbaNV.png" alt="JjbaNV.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbFpD.png" alt="JjbFpD.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjb9k6.png" alt="Jjb9k6.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbPfO.png" alt="JjbPfO.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbCtK.png" alt="JjbCtK.png"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>网络安全9</title>
+    <url>/2020/04/15/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A89/</url>
+    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
+<a id="more"></a>
+<h3>1、简述Windows系统权限、安全标识符、注册表的概念，注册表的作用。<br></h3>
+（1）Windows系统权限：用户权限：登录权限：账户通过身份验证前所具备的权限；
+操作权限：账户通过身份验证之后所具备的权限，利用权限可以控制资源被访问的方式，
+User组成员对某个资源拥有“读取”操作权限、Administrators组成员拥有“读取+写入+删除”操作权限。<br>
+（2）安全标识符：在Windows系统中，系统是通过安全标识符（SID）对用户进行识别的，SID可以应用于系统内的所有用户、组、服务或计算机，因为SID是一个具有惟一性、绝对不会重复产生的数值。<br>
+（3）注册表的概念：注册表是存储计算机的配置信息的数据容器<br>
+（4）注册表的作用：在系统中，注册表是一个记录32位驱动的设置和位置的数据库。当操作系统需要存取硬件设备，它使用驱动程序，甚至设备是一个BIOS支持的设备。<br>
+
+<p></p><h3>2、简述Linux系统的权限模型和安全访问。（选学）<br></h3>
+（1）权限模型： Linux系统是一个多用户多任务的分时操作系统，任何一个要使用系统资源的用户，都必须首先向系统管理员申请一个账号，然后以这个账号的身份进入系统。用户的账号一方面可以帮助系统管理员对使用系统的用户进行跟踪，并控制他们对系统资源的访问;另一方面也可以帮助用户组织文件，并为用户提供安全性保护。每个用户账号都拥有一个惟一的用户名和各自的口令。用户在登录时键入正确的用户名和口令后，就能够进入系统和自己的主目录。<br>
+（2）安全访问：xinetd是管理其他网络服务守护进程如telnet、pop3、imap等的守护进程，xinetd的主要配置文件是/ etc/ xinetd.conf,并且提供一个配置目录/ etc/xinetd.d<br>
+<h3>3、简述系统口令破解中字典破解、暴力破解概念。<br></h3>
+（1）字典破解：字典破解指通过破解者对管理员的了解，猜测其可能使用某些信息作为密码，同时结合对密码长度的猜测，利用工具来生成密码破解字典。<br>
+（2）暴力破解：暴力破解指对密码可能使用的字符和长度进行设定后，对所有可能的密码组合逐个实验。<br>
+<p></p><h3>4、简述Web服务器安全设置的内容<br></h3>
+(1) Windows IIs 安全设置：Internet信息服务器(即Internet Information Server, 简称IIS)是 用户创建信息服务器的最重要的组件，最新的版本是Windows 2003中包含的IIS 6.0。与Window NT Server完全集成在- -起，因而能够利用Windows NT Server和NTFS(NT File System，NT的文件系统)内置的安全特性，建立强大、灵活且安全的Internet和Intranet站点。<br>
+(2) linux apache安全设置：Apache服务器是Internet中应用最为广泛的Web服务器软件之一。Apache服务器源自美国国家超级技术计算应用中心(NCSA) 的Web服务器项目，需经过精心配置后，才能使它适应高负荷，大吞吐量的互联网工作。Apache利用配置文件/etc/httpd/conf/ httpd.conf进行参数配置及其虚拟目录的管理。<br>
+
+<p></p><h3>5、简述数据库系统安全含义。（选学）<br></h3>
+数据库系统安全是指为数据库系统建立安全保护措施，以保护数据库系统软件和其中的数据不因偶然和恶意的原因而遭到破坏、更改和泄漏。<br>
+
 ]]></content>
   </entry>
 </search>
