@@ -17,6 +17,12 @@
 
 <p><a href="https://imgchr.com/i/Jj7Rq1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/02/Jj7Rq1.png" alt="Jj7Rq1.png"></a><br>2、<hr><br><a href="https://imgchr.com/i/Jj7fVx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/02/Jj7fVx.png" alt="Jj7fVx.png"></a></p>
 ]]></content>
+      <categories>
+        <category>PHP</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
   </entry>
   <entry>
     <title>PHP9</title>
@@ -31,6 +37,54 @@
 <p>(1)使用标准的结构化查询语言——SQL访问数据库。<br><br>(2)开源软件、完全免费。<br><br>(3)服务器功能齐全，运行速度快，安全性高。<br><br>(4)支持多线程及多个不同的客户程序和管理工具。<br><br>(5)支持跨平台移植，无需修改。<br><br>(6)为多种程序设计语言提供支持，包括PHP、 ASP.NET. Java、Python、Ruby、 Tcl、 C、 C++、Perl语言等。<br></p>
 <h3>3、创建数据库student、创建表stu_info（提交mySQL代码）<br></h3>
 ]]></content>
+      <categories>
+        <category>PHP</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PHP10</title>
+    <url>/2020/04/21/P10/</url>
+    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
+<a id="more"></a>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="php"><span class="meta">&lt;?php</span> </span></span><br><span class="line"><span class="php">$conn = mysql_connect(<span class="string">"localhost"</span>,<span class="string">"root"</span> ,<span class="string">""</span>);</span></span><br><span class="line"><span class="php">mysql_query(<span class="string">" set names 'utf8' "</span>);</span></span><br><span class="line"><span class="php">mysql_select_db(<span class="string">"student"</span> ,$conn);</span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br><span class="line"><span class="php"><span class="meta">&lt;?php</span> </span></span><br><span class="line"><span class="php">$sql=<span class="string">"select * from stu_info"</span>;</span></span><br><span class="line"><span class="php">$result=mysql_query($sql,$conn);</span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span> <span class="meta-keyword">PUBLIC</span> <span class="meta-string">"-//W3C//DTD XHTML 1.0 Transitional//EN"</span> <span class="meta-string">"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">xmlns</span>=<span class="string">"http://www.w3.org/1999/xhtml"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"Content-Type"</span> <span class="attr">content</span>=<span class="string">"text/html; charset=utf-8"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>无标题文档<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span></span><br><span class="line"><span class="css"><span class="selector-class">.a1</span> &#123;</span></span><br><span class="line"><span class="css">	<span class="selector-tag">background-color</span>: <span class="selector-id">#0FF</span>;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">table</span> <span class="attr">width</span>=<span class="string">"400"</span> <span class="attr">border</span>=<span class="string">"1"</span> <span class="attr">align</span>=<span class="string">"center"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span>学生信息表<span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span>  <span class="attr">class</span>=<span class="string">"a1"</span> <span class="attr">align</span>=<span class="string">"center"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>学号<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>姓名<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>性别<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>年龄<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>地址<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">while</span>($row=mysql_fetch_array($result))&#123; <span class="meta">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span> <span class="attr">align</span>=<span class="string">"center"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_id"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_name"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_sex"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_age"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_addr"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="php"><span class="meta">&lt;?php</span> &#125; <span class="meta">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+]]></content>
+      <categories>
+        <category>PHP</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【软件分享】</title>
+    <url>/2020/04/30/%E3%80%90%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E3%80%91/</url>
+    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
+<a id="more"></a>
+
+<p>[<strong>软件名称</strong>]  搜书大师<br>[<strong>软件版本</strong>]  v20.10<br>[<strong>软件大小</strong>]  12.5M<br>[<strong>软件包名</strong>]  com.flyersoft.seebooks<br>[<strong>软件优势</strong>]  <img src="https://s1.ax1x.com/2020/05/02/JjHcY8.jpg" alt="JjHcY8.jpg"><br>[<strong>下载链接</strong>]  <a href="https://wh0911.lanzous.com/ic3xcxi" target="_blank" rel="noopener">https://wh0911.lanzous.com/ic3xcxi</a><br>[<strong>图文介绍</strong>]<br>●超级搜书, 一网打尽<br>你喜欢的书都能搜到, 打开即看, 无须等待<br>●海量书籍, 应有尽有<br>整合上百家内容平台, 几千万本书免费阅读<br>[<strong>新版特性</strong>]<br>v20.10<br>●新增热门书籍排行榜<br>●书单增加标签属性及类型数目<br>●书籍详情增加字数/更新日期/类型等信息<br>●优化会员积分和签到<br>●更新书源资料<br>●改进书单评论区操作<br>●点用户头像可查看该用户最近动态<br>●发帖|跟帖内容支持 HTML风格<br>●新增主题书单板块<br>●新增综合讨论板块<br>●新增书荒互助板块<br>●新增精彩书评板块</p>
+<p><img src="https://s1.ax1x.com/2020/05/02/JjHrwt.png" alt="JjHrwt.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjH6Ff.png" alt="JjH6Ff.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHDeI.png" alt="JjHDeI.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHsTP.png" alt="JjHsTP.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHgfS.png" alt="JjHgfS.png"></p>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>软件分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于图片显示问题的通知</title>
+    <url>/2020/05/01/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98%E7%9A%84%E9%80%9A%E7%9F%A5/</url>
+    <content><![CDATA[<p><strong>2020-05-01 19:48</strong></p>
+<p><strong>因网站代码重构，导致网站图片显示错误，现在正在紧急处理中，给您带来的不便，敬请谅解，感谢大家的支持和配合。</strong></p>
+]]></content>
+      <categories>
+        <category>通知</category>
+      </categories>
   </entry>
   <entry>
     <title>网站维护通知</title>
@@ -45,6 +99,9 @@
 对于系统维护升级给您带来的不便，敬请谅解，感谢大家的支持和配合。
 
 ]]></content>
+      <categories>
+        <category>通知</category>
+      </categories>
   </entry>
   <entry>
     <title>网络管理10</title>
@@ -143,6 +200,12 @@ A A.标准访问列表
 
 <p>D D.扩展访问列表</p><p></p>
 ]]></content>
+      <categories>
+        <category>网络管理</category>
+      </categories>
+      <tags>
+        <tag>网络管理</tag>
+      </tags>
   </entry>
   <entry>
     <title>网络安全10</title>
@@ -166,6 +229,12 @@ A A.标准访问列表
 (3)弱口令扫描法：口令使用简单的数字和字母组合，X-Scan工具中涵盖了很多种弱口令扫描方法，包括FTP、SMTP、SSH、POP3、IMAP、TELNET、WWW等。<br>
 
 ]]></content>
+      <categories>
+        <category>网络安全</category>
+      </categories>
+      <tags>
+        <tag>网络安全</tag>
+      </tags>
   </entry>
   <entry>
     <title>网络安全11</title>
@@ -193,44 +262,12 @@ A A.标准访问列表
 <p>(2)ARP欺骗:ARP的致命缺陷是:它不具备任何的认证机制。当有个人请求某个IP地址的MAC时，任何人都可以用MAC地址进行回复，并且这种响应也会被认为是合法的。<br>ARP并不只在发送了ARP请求后才接收ARP应答。当主机接收到ARP应答数据包的时候，就会对本机的ARP缓存进行更新，将应答中的IP和MAC地址存储在ARP缓存表中。此外，由于局城网中数据包不是根据IP地址，而是按照MAC地址进行传输的。</p>
 <p>(3)ICMP重定向:ICMP重定向报文是ICMP控制报文中的一种。在正常的情况下，当路由器检测到一台机器使用非优化路由的时候，它会向该主机发送一个ICMP重定向报文，请求主机改变路由。路由器也会把初始数据向它的目的地转发。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>【软件分享】</title>
-    <url>/2020/04/30/%E3%80%90%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E3%80%91/</url>
-    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
-<a id="more"></a>
-
-<p>[<strong>软件名称</strong>]  搜书大师<br>[<strong>软件版本</strong>]  v20.10<br>[<strong>软件大小</strong>]  12.5M<br>[<strong>软件包名</strong>]  com.flyersoft.seebooks<br>[<strong>软件优势</strong>]  <img src="https://s1.ax1x.com/2020/05/02/JjHcY8.jpg" alt="JjHcY8.jpg"><br>[<strong>下载链接</strong>]  <a href="https://wh0911.lanzous.com/ic3xcxi" target="_blank" rel="noopener">https://wh0911.lanzous.com/ic3xcxi</a><br>[<strong>图文介绍</strong>]<br>●超级搜书, 一网打尽<br>你喜欢的书都能搜到, 打开即看, 无须等待<br>●海量书籍, 应有尽有<br>整合上百家内容平台, 几千万本书免费阅读<br>[<strong>新版特性</strong>]<br>v20.10<br>●新增热门书籍排行榜<br>●书单增加标签属性及类型数目<br>●书籍详情增加字数/更新日期/类型等信息<br>●优化会员积分和签到<br>●更新书源资料<br>●改进书单评论区操作<br>●点用户头像可查看该用户最近动态<br>●发帖|跟帖内容支持 HTML风格<br>●新增主题书单板块<br>●新增综合讨论板块<br>●新增书荒互助板块<br>●新增精彩书评板块</p>
-<p><img src="https://s1.ax1x.com/2020/05/02/JjHrwt.png" alt="JjHrwt.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjH6Ff.png" alt="JjH6Ff.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHDeI.png" alt="JjHDeI.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHsTP.png" alt="JjHsTP.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHgfS.png" alt="JjHgfS.png"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>关于图片显示问题的通知</title>
-    <url>/2020/05/01/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98%E7%9A%84%E9%80%9A%E7%9F%A5/</url>
-    <content><![CDATA[<p><strong>2020-05-01 19:48</strong></p>
-<p><strong>因网站代码重构，导致网站图片显示错误，现在正在紧急处理中，给您带来的不便，敬请谅解，感谢大家的支持和配合。</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>PHP10</title>
-    <url>/2020/04/21/P10/</url>
-    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
-<a id="more"></a>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="php"><span class="meta">&lt;?php</span> </span></span><br><span class="line"><span class="php">$conn = mysql_connect(<span class="string">"localhost"</span>,<span class="string">"root"</span> ,<span class="string">""</span>);</span></span><br><span class="line"><span class="php">mysql_query(<span class="string">" set names 'utf8' "</span>);</span></span><br><span class="line"><span class="php">mysql_select_db(<span class="string">"student"</span> ,$conn);</span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br><span class="line"><span class="php"><span class="meta">&lt;?php</span> </span></span><br><span class="line"><span class="php">$sql=<span class="string">"select * from stu_info"</span>;</span></span><br><span class="line"><span class="php">$result=mysql_query($sql,$conn);</span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span> <span class="meta-keyword">PUBLIC</span> <span class="meta-string">"-//W3C//DTD XHTML 1.0 Transitional//EN"</span> <span class="meta-string">"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">xmlns</span>=<span class="string">"http://www.w3.org/1999/xhtml"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"Content-Type"</span> <span class="attr">content</span>=<span class="string">"text/html; charset=utf-8"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>无标题文档<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span></span><br><span class="line"><span class="css"><span class="selector-class">.a1</span> &#123;</span></span><br><span class="line"><span class="css">	<span class="selector-tag">background-color</span>: <span class="selector-id">#0FF</span>;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">table</span> <span class="attr">width</span>=<span class="string">"400"</span> <span class="attr">border</span>=<span class="string">"1"</span> <span class="attr">align</span>=<span class="string">"center"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span>学生信息表<span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span>  <span class="attr">class</span>=<span class="string">"a1"</span> <span class="attr">align</span>=<span class="string">"center"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>学号<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>姓名<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>性别<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>年龄<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span>地址<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">while</span>($row=mysql_fetch_array($result))&#123; <span class="meta">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;<span class="name">tr</span> <span class="attr">align</span>=<span class="string">"center"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_id"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_name"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_sex"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_age"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> $row[<span class="string">"s_addr"</span>]; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line"><span class="php"><span class="meta">&lt;?php</span> &#125; <span class="meta">?&gt;</span></span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-]]></content>
-  </entry>
-  <entry>
-    <title>网络管理11</title>
-    <url>/2020/04/23/%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%8611/</url>
-    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
-<a id="more"></a>
-<h1 style="color:#F00">注意：等待全部加载完成时在作答！！！</h1>
-<hr>
-
-<p><img src="https://s1.ax1x.com/2020/05/02/JjbSTx.png" alt="JjbSTx.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbk1e.png" alt="Jjbk1e.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbA6H.png" alt="JjbA6H.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbEXd.png" alt="JjbEXd.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbZnA.png" alt="JjbZnA.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbe0I.png" alt="Jjbe0I.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbm7t.png" alt="Jjbm7t.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbuAP.png" alt="JjbuAP.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbKtf.png" alt="JjbKtf.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbMh8.png" alt="JjbMh8.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbl9S.png" alt="Jjbl9S.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjb11g.png" alt="Jjb11g.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjb3cQ.png" alt="Jjb3cQ.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbYBn.png" alt="JjbYBn.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbJns.png" alt="JjbJns.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbt7q.png" alt="Jjbt7q.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbUA0.png" alt="JjbUA0.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbaNV.png" alt="JjbaNV.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbFpD.png" alt="JjbFpD.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjb9k6.png" alt="Jjb9k6.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbPfO.png" alt="JjbPfO.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbCtK.png" alt="JjbCtK.png"></p>
-]]></content>
+      <categories>
+        <category>网络安全</category>
+      </categories>
+      <tags>
+        <tag>网络安全</tag>
+      </tags>
   </entry>
   <entry>
     <title>网络安全9</title>
@@ -259,5 +296,28 @@ User组成员对某个资源拥有“读取”操作权限、Administrators组�
 数据库系统安全是指为数据库系统建立安全保护措施，以保护数据库系统软件和其中的数据不因偶然和恶意的原因而遭到破坏、更改和泄漏。<br>
 
 ]]></content>
+      <categories>
+        <category>网络安全</category>
+      </categories>
+      <tags>
+        <tag>网络安全</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网络管理11</title>
+    <url>/2020/04/23/%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%8611/</url>
+    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
+<a id="more"></a>
+<h1 style="color:#F00">注意：等待全部加载完成时在作答！！！</h1>
+<hr>
+
+<p><img src="https://s1.ax1x.com/2020/05/02/JjbSTx.png" alt="JjbSTx.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbk1e.png" alt="Jjbk1e.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbA6H.png" alt="JjbA6H.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbEXd.png" alt="JjbEXd.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbZnA.png" alt="JjbZnA.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbe0I.png" alt="Jjbe0I.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbm7t.png" alt="Jjbm7t.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbuAP.png" alt="JjbuAP.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbKtf.png" alt="JjbKtf.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbMh8.png" alt="JjbMh8.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbl9S.png" alt="Jjbl9S.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjb11g.png" alt="Jjb11g.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjb3cQ.png" alt="Jjb3cQ.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbYBn.png" alt="JjbYBn.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbJns.png" alt="JjbJns.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjbt7q.png" alt="Jjbt7q.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbUA0.png" alt="JjbUA0.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbaNV.png" alt="JjbaNV.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbFpD.png" alt="JjbFpD.png"><br><img src="https://s1.ax1x.com/2020/05/02/Jjb9k6.png" alt="Jjb9k6.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbPfO.png" alt="JjbPfO.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjbCtK.png" alt="JjbCtK.png"></p>
+]]></content>
+      <categories>
+        <category>网络管理</category>
+      </categories>
+      <tags>
+        <tag>网络管理</tag>
+      </tags>
   </entry>
 </search>
