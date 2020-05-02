@@ -50,53 +50,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>【软件分享】</title>
-    <url>/2020/04/30/%E3%80%90%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E3%80%91/</url>
-    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
-<a id="more"></a>
-
-<p>[<strong>软件名称</strong>]  搜书大师<br>[<strong>软件版本</strong>]  v20.10<br>[<strong>软件大小</strong>]  12.5M<br>[<strong>软件包名</strong>]  com.flyersoft.seebooks<br>[<strong>软件优势</strong>]  <img src="https://s1.ax1x.com/2020/05/02/JjHcY8.jpg" alt="JjHcY8.jpg"><br>[<strong>下载链接</strong>]  <a href="https://wh0911.lanzous.com/ic3xcxi" target="_blank" rel="noopener">https://wh0911.lanzous.com/ic3xcxi</a><br>[<strong>图文介绍</strong>]<br>●超级搜书, 一网打尽<br>你喜欢的书都能搜到, 打开即看, 无须等待<br>●海量书籍, 应有尽有<br>整合上百家内容平台, 几千万本书免费阅读<br>[<strong>新版特性</strong>]<br>v20.10<br>●新增热门书籍排行榜<br>●书单增加标签属性及类型数目<br>●书籍详情增加字数/更新日期/类型等信息<br>●优化会员积分和签到<br>●更新书源资料<br>●改进书单评论区操作<br>●点用户头像可查看该用户最近动态<br>●发帖|跟帖内容支持 HTML风格<br>●新增主题书单板块<br>●新增综合讨论板块<br>●新增书荒互助板块<br>●新增精彩书评板块</p>
-<p><img src="https://s1.ax1x.com/2020/05/02/JjHrwt.png" alt="JjHrwt.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjH6Ff.png" alt="JjH6Ff.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHDeI.png" alt="JjHDeI.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHsTP.png" alt="JjHsTP.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHgfS.png" alt="JjHgfS.png"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>网站维护通知</title>
-    <url>/2020/04/19/%E7%AB%99%E7%BB%B4%E6%8A%A4%E9%80%9A%E7%9F%A5/</url>
-    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
-<a id="more"></a>
-<center><h2>网站维护时间通知</h2></center>
-
-<p>因网站数据迁移及功能升级，需在2020年04月21日至04月26日进行系统维护升级，维护升级时间如下：<br></p>
-<h4> 1、学习共享站：04月21日12:00至14:30，维护升级期间网站可正常访问，部分功能受限。<br></h4>
-<h4> 2、资源共享站：04月25日09:30至04月26日19:30，维护升级期间网站暂停访问。</h4><br>
-对于系统维护升级给您带来的不便，敬请谅解，感谢大家的支持和配合。
-
-]]></content>
-  </entry>
-  <entry>
-    <title>网络安全10</title>
-    <url>/2020/04/21/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A810/</url>
-    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
-<a id="more"></a>
-<h3>1、上传学习笔记、学习日志；</h3>
-
-<h3>2、简述信息搜集的内容和步骤。</h3>
-
-<p>内容：确定攻击目标，收集尽量多的关于攻击目的的信息，包括目标的操作系统类型及版本、目标提供哪些服务、各服务的类型、版本以及相关的社会信息。<br><br>步骤：(1)找到初始信息，比如一个IP地址或者一个域名;<br>(2)找到网络地址范围，或者子网掩码;<br>(3)找到活动机器;<br>(4)找到开放端口和入口点;<br>(5)弄清操作系统;<br>(6)弄清每个端口运行的是哪种服务;<br>(7)画出网络结构图</p>
-<h3>3、简述使用ARP协议、NetBIOS协议和WINS服务进行主机发现的区别。</h3>
-
-<p>ARP协议不支持路由功能，所以基于ARP的主机发现方式就不能够实现跨网段(路由)发现。虽然NetBIOS协议自身不支持路由功能，但是在Windows系统中，借助WINS协议，NetBIOS可以实现跨网段主机发现。</p>
-<h3>4、简述TCP端口扫描和UDP端口扫描的区别。</h3>
-
-<p>TCP面向连接(如打电话要先拨号建立连接);UDP是无连接的,即发送数据之前不需要建立连接。 CP提供可靠的服务。也就是说,通过TCP连接传送的数据,无差错,不丢失,不重复,且按序到达;UDP尽最大努力交付,即不保证可靠交付。 tcp通过校验和,重传控制,序号标识,滑动窗口、确认应答实现可靠传输。如丢包时的重发控制,还可以对次序乱掉的分包进行顺序控制。 UDP具有较好的实时性,工作效率比TCP高,适用于对高速传输和实时性有较高的通信或广播通信。 每一条TCP连接只能是点到点的;UDP支持一对一,一对多,多对一和多对多</p>
-<h3>5、简述漏洞扫描的方法。</h3>
-(1)漏洞库匹配法：通过采用漏洞规则匹配技术完成扫描。<br>
-(2)插件技术（功能模块技术）：插件是由脚本语言编写的子程序，可以通过调用它来执行漏洞扫描，检测系统中存在的漏洞。<br>
-(3)弱口令扫描法：口令使用简单的数字和字母组合，X-Scan工具中涵盖了很多种弱口令扫描方法，包括FTP、SMTP、SSH、POP3、IMAP、TELNET、WWW等。<br>
-
-]]></content>
-  </entry>
-  <entry>
     <title>网络管理10</title>
     <url>/2020/04/19/%E7%BB%9C%E7%AE%A1%E7%90%8610/</url>
     <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
@@ -195,6 +148,43 @@ A A.标准访问列表
 ]]></content>
   </entry>
   <entry>
+    <title>网站维护通知</title>
+    <url>/2020/04/19/%E7%AB%99%E7%BB%B4%E6%8A%A4%E9%80%9A%E7%9F%A5/</url>
+    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
+<a id="more"></a>
+<center><h2>网站维护时间通知</h2></center>
+
+<p>因网站数据迁移及功能升级，需在2020年04月21日至04月26日进行系统维护升级，维护升级时间如下：<br></p>
+<h4> 1、学习共享站：04月21日12:00至14:30，维护升级期间网站可正常访问，部分功能受限。<br></h4>
+<h4> 2、资源共享站：04月25日09:30至04月26日19:30，维护升级期间网站暂停访问。</h4><br>
+对于系统维护升级给您带来的不便，敬请谅解，感谢大家的支持和配合。
+
+]]></content>
+  </entry>
+  <entry>
+    <title>网络安全10</title>
+    <url>/2020/04/21/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A810/</url>
+    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
+<a id="more"></a>
+<h3>1、上传学习笔记、学习日志；</h3>
+
+<h3>2、简述信息搜集的内容和步骤。</h3>
+
+<p>内容：确定攻击目标，收集尽量多的关于攻击目的的信息，包括目标的操作系统类型及版本、目标提供哪些服务、各服务的类型、版本以及相关的社会信息。<br><br>步骤：(1)找到初始信息，比如一个IP地址或者一个域名;<br>(2)找到网络地址范围，或者子网掩码;<br>(3)找到活动机器;<br>(4)找到开放端口和入口点;<br>(5)弄清操作系统;<br>(6)弄清每个端口运行的是哪种服务;<br>(7)画出网络结构图</p>
+<h3>3、简述使用ARP协议、NetBIOS协议和WINS服务进行主机发现的区别。</h3>
+
+<p>ARP协议不支持路由功能，所以基于ARP的主机发现方式就不能够实现跨网段(路由)发现。虽然NetBIOS协议自身不支持路由功能，但是在Windows系统中，借助WINS协议，NetBIOS可以实现跨网段主机发现。</p>
+<h3>4、简述TCP端口扫描和UDP端口扫描的区别。</h3>
+
+<p>TCP面向连接(如打电话要先拨号建立连接);UDP是无连接的,即发送数据之前不需要建立连接。 CP提供可靠的服务。也就是说,通过TCP连接传送的数据,无差错,不丢失,不重复,且按序到达;UDP尽最大努力交付,即不保证可靠交付。 tcp通过校验和,重传控制,序号标识,滑动窗口、确认应答实现可靠传输。如丢包时的重发控制,还可以对次序乱掉的分包进行顺序控制。 UDP具有较好的实时性,工作效率比TCP高,适用于对高速传输和实时性有较高的通信或广播通信。 每一条TCP连接只能是点到点的;UDP支持一对一,一对多,多对一和多对多</p>
+<h3>5、简述漏洞扫描的方法。</h3>
+(1)漏洞库匹配法：通过采用漏洞规则匹配技术完成扫描。<br>
+(2)插件技术（功能模块技术）：插件是由脚本语言编写的子程序，可以通过调用它来执行漏洞扫描，检测系统中存在的漏洞。<br>
+(3)弱口令扫描法：口令使用简单的数字和字母组合，X-Scan工具中涵盖了很多种弱口令扫描方法，包括FTP、SMTP、SSH、POP3、IMAP、TELNET、WWW等。<br>
+
+]]></content>
+  </entry>
+  <entry>
     <title>网络安全11</title>
     <url>/2020/04/29/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A811/</url>
     <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
@@ -247,6 +237,16 @@ User组成员对某个资源拥有“读取”操作权限、Administrators组�
 <p></p><h3>5、简述数据库系统安全含义。（选学）<br></h3>
 数据库系统安全是指为数据库系统建立安全保护措施，以保护数据库系统软件和其中的数据不因偶然和恶意的原因而遭到破坏、更改和泄漏。<br>
 
+]]></content>
+  </entry>
+  <entry>
+    <title>【软件分享】</title>
+    <url>/2020/04/30/%E3%80%90%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E3%80%91/</url>
+    <content><![CDATA[<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
+<a id="more"></a>
+
+<p>[<strong>软件名称</strong>]  搜书大师<br>[<strong>软件版本</strong>]  v20.10<br>[<strong>软件大小</strong>]  12.5M<br>[<strong>软件包名</strong>]  com.flyersoft.seebooks<br>[<strong>软件优势</strong>]  <img src="https://s1.ax1x.com/2020/05/02/JjHcY8.jpg" alt="JjHcY8.jpg"><br>[<strong>下载链接</strong>]  <a href="https://wh0911.lanzous.com/ic3xcxi" target="_blank" rel="noopener">https://wh0911.lanzous.com/ic3xcxi</a><br>[<strong>图文介绍</strong>]<br>●超级搜书, 一网打尽<br>你喜欢的书都能搜到, 打开即看, 无须等待<br>●海量书籍, 应有尽有<br>整合上百家内容平台, 几千万本书免费阅读<br>[<strong>新版特性</strong>]<br>v20.10<br>●新增热门书籍排行榜<br>●书单增加标签属性及类型数目<br>●书籍详情增加字数/更新日期/类型等信息<br>●优化会员积分和签到<br>●更新书源资料<br>●改进书单评论区操作<br>●点用户头像可查看该用户最近动态<br>●发帖|跟帖内容支持 HTML风格<br>●新增主题书单板块<br>●新增综合讨论板块<br>●新增书荒互助板块<br>●新增精彩书评板块</p>
+<p><img src="https://s1.ax1x.com/2020/05/02/JjHrwt.png" alt="JjHrwt.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjH6Ff.png" alt="JjH6Ff.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHDeI.png" alt="JjHDeI.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHsTP.png" alt="JjHsTP.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHgfS.png" alt="JjHgfS.png"></p>
 ]]></content>
   </entry>
   <entry>
