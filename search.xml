@@ -16,6 +16,41 @@
       </categories>
   </entry>
   <entry>
+    <title>“我也曾用尽全力”</title>
+    <url>/2020/05/03/%E2%80%9C%E6%88%91%E4%B9%9F%E6%9B%BE%E7%94%A8%E5%B0%BD%E5%85%A8%E5%8A%9B%E2%80%9D/</url>
+    <content><![CDATA[<html><head></head><body><p><a href="https://imgchr.com/i/YpFUPK" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/03/YpFUPK.md.jpg" alt="YpFUPK.md.jpg"></a></p>
+<a id="more"></a>
+<p>认真你才没输，这看起来十分像一句废话。</p>
+<p>可就是这样一个我们很容易做到的事情，在生活中也总是出现偏差。一件事情是输还是赢，往往不是通过认真与否来决定的。因为这世上的事情往往存在太多的不确定性，存在太多的碰撞。</p>
+<p>就像我用尽全力的去喜欢一个人，我也未必就能得到她的青睐，而认真这种品质似乎就是在这里出现了动摇。</p>
+<p>那些用尽全力后的无可奈何，那种巨大的无力感让我们觉得，认真的意义可能就是让我显得更狼狈一些而已。</p>
+<p>可我们忘了一件事情，在面对那些无法确定的概率，去面对一份未知的感情的时候，我们无法战胜概率，无法提前去验证未知，我们能做到的也许只有认真。而这份认真的作用可以不是指向结果的胜利，而是指向自己的问心无愧。</p>
+<p>只有我认认真真做了我能做的<br>我才能有理由告诉自己无论结果怎样，我才没输。</p>
+</body></html>]]></content>
+      <categories>
+        <category>文</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>PHP9</title>
+    <url>/2020/04/14/PHP%E7%AC%AC%E4%B9%9D%E5%91%A8%E4%BD%9C%E4%B8%9A/</url>
+    <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQHIO.jpg" alt="YKQHIO.jpg"></p>
+<a id="more"></a>
+<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
+
+<h3>1、    简述MySQL数据库的发展历程。<br></h3>
+
+<p> (1)70年代,引进数据库,1976年萨师煊教授引进<br><br> (2)80年代,请进来,走出去;引进国外数据库人才,派遣国内专家去学习<br><br> (3)90年代,应用数据进行研究,开发资金的数据库<br><br> (4)21世纪,用数据库进行创新研究、产品开发、应用集成<br></p>
+<h3>2、    MySQL数据库的优点有哪些?<br></h3>
+
+<p>(1)使用标准的结构化查询语言——SQL访问数据库。<br><br>(2)开源软件、完全免费。<br><br>(3)服务器功能齐全，运行速度快，安全性高。<br><br>(4)支持多线程及多个不同的客户程序和管理工具。<br><br>(5)支持跨平台移植，无需修改。<br><br>(6)为多种程序设计语言提供支持，包括PHP、 ASP.NET. Java、Python、Ruby、 Tcl、 C、 C++、Perl语言等。<br></p>
+<h3>3、创建数据库student、创建表stu_info（提交mySQL代码）<br></h3>
+</body></html>]]></content>
+      <categories>
+        <category>PHP</category>
+      </categories>
+  </entry>
+  <entry>
     <title>PHP11</title>
     <url>/2020/04/28/PHP11/</url>
     <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQHIO.jpg" alt="YKQHIO.jpg"></p>
@@ -39,53 +74,31 @@
       </categories>
   </entry>
   <entry>
-    <title>PHP9</title>
-    <url>/2020/04/14/PHP%E7%AC%AC%E4%B9%9D%E5%91%A8%E4%BD%9C%E4%B8%9A/</url>
-    <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQHIO.jpg" alt="YKQHIO.jpg"></p>
+    <title>网络安全10</title>
+    <url>/2020/04/21/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A810/</url>
+    <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQ7dK.jpg" alt="YKQ7dK.jpg"></p>
 <a id="more"></a>
 <iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
 
-<h3>1、    简述MySQL数据库的发展历程。<br></h3>
+<h3>1、上传学习笔记、学习日志；</h3>
 
-<p> (1)70年代,引进数据库,1976年萨师煊教授引进<br><br> (2)80年代,请进来,走出去;引进国外数据库人才,派遣国内专家去学习<br><br> (3)90年代,应用数据进行研究,开发资金的数据库<br><br> (4)21世纪,用数据库进行创新研究、产品开发、应用集成<br></p>
-<h3>2、    MySQL数据库的优点有哪些?<br></h3>
+<h3>2、简述信息搜集的内容和步骤。</h3>
 
-<p>(1)使用标准的结构化查询语言——SQL访问数据库。<br><br>(2)开源软件、完全免费。<br><br>(3)服务器功能齐全，运行速度快，安全性高。<br><br>(4)支持多线程及多个不同的客户程序和管理工具。<br><br>(5)支持跨平台移植，无需修改。<br><br>(6)为多种程序设计语言提供支持，包括PHP、 ASP.NET. Java、Python、Ruby、 Tcl、 C、 C++、Perl语言等。<br></p>
-<h3>3、创建数据库student、创建表stu_info（提交mySQL代码）<br></h3>
+<p>内容：确定攻击目标，收集尽量多的关于攻击目的的信息，包括目标的操作系统类型及版本、目标提供哪些服务、各服务的类型、版本以及相关的社会信息。<br><br>步骤：(1)找到初始信息，比如一个IP地址或者一个域名;<br>(2)找到网络地址范围，或者子网掩码;<br>(3)找到活动机器;<br>(4)找到开放端口和入口点;<br>(5)弄清操作系统;<br>(6)弄清每个端口运行的是哪种服务;<br>(7)画出网络结构图</p>
+<h3>3、简述使用ARP协议、NetBIOS协议和WINS服务进行主机发现的区别。</h3>
+
+<p>ARP协议不支持路由功能，所以基于ARP的主机发现方式就不能够实现跨网段(路由)发现。虽然NetBIOS协议自身不支持路由功能，但是在Windows系统中，借助WINS协议，NetBIOS可以实现跨网段主机发现。</p>
+<h3>4、简述TCP端口扫描和UDP端口扫描的区别。</h3>
+
+<p>TCP面向连接(如打电话要先拨号建立连接);UDP是无连接的,即发送数据之前不需要建立连接。 CP提供可靠的服务。也就是说,通过TCP连接传送的数据,无差错,不丢失,不重复,且按序到达;UDP尽最大努力交付,即不保证可靠交付。 tcp通过校验和,重传控制,序号标识,滑动窗口、确认应答实现可靠传输。如丢包时的重发控制,还可以对次序乱掉的分包进行顺序控制。 UDP具有较好的实时性,工作效率比TCP高,适用于对高速传输和实时性有较高的通信或广播通信。 每一条TCP连接只能是点到点的;UDP支持一对一,一对多,多对一和多对多</p>
+<h3>5、简述漏洞扫描的方法。</h3>
+(1)漏洞库匹配法：通过采用漏洞规则匹配技术完成扫描。<br>
+(2)插件技术（功能模块技术）：插件是由脚本语言编写的子程序，可以通过调用它来执行漏洞扫描，检测系统中存在的漏洞。<br>
+(3)弱口令扫描法：口令使用简单的数字和字母组合，X-Scan工具中涵盖了很多种弱口令扫描方法，包括FTP、SMTP、SSH、POP3、IMAP、TELNET、WWW等。<br>
+
 </body></html>]]></content>
       <categories>
-        <category>PHP</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>“我也曾用尽全力”</title>
-    <url>/2020/05/03/%E2%80%9C%E6%88%91%E4%B9%9F%E6%9B%BE%E7%94%A8%E5%B0%BD%E5%85%A8%E5%8A%9B%E2%80%9D/</url>
-    <content><![CDATA[<html><head></head><body><p><a href="https://imgchr.com/i/YpFUPK" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/03/YpFUPK.md.jpg" alt="YpFUPK.md.jpg"></a></p>
-<a id="more"></a>
-<p>认真你才没输，这看起来十分像一句废话。</p>
-<p>可就是这样一个我们很容易做到的事情，在生活中也总是出现偏差。一件事情是输还是赢，往往不是通过认真与否来决定的。因为这世上的事情往往存在太多的不确定性，存在太多的碰撞。</p>
-<p>就像我用尽全力的去喜欢一个人，我也未必就能得到她的青睐，而认真这种品质似乎就是在这里出现了动摇。</p>
-<p>那些用尽全力后的无可奈何，那种巨大的无力感让我们觉得，认真的意义可能就是让我显得更狼狈一些而已。</p>
-<p>可我们忘了一件事情，在面对那些无法确定的概率，去面对一份未知的感情的时候，我们无法战胜概率，无法提前去验证未知，我们能做到的也许只有认真。而这份认真的作用可以不是指向结果的胜利，而是指向自己的问心无愧。</p>
-<p>只有我认认真真做了我能做的<br>我才能有理由告诉自己无论结果怎样，我才没输。</p>
-</body></html>]]></content>
-      <categories>
-        <category>文</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>【软件分享】</title>
-    <url>/2020/04/30/%E3%80%90%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E3%80%91/</url>
-    <content><![CDATA[<html><head></head><body><p><a href="https://imgchr.com/i/YKQORH" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/08/YKQORH.md.jpg" alt="YKQORH.md.jpg"></a></p>
-<a id="more"></a>
-<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
-
-
-<p>[<strong>软件名称</strong>]  搜书大师<br>[<strong>软件版本</strong>]  v20.10<br>[<strong>软件大小</strong>]  12.5M<br>[<strong>软件包名</strong>]  com.flyersoft.seebooks<br>[<strong>软件优势</strong>]  <img src="https://s1.ax1x.com/2020/05/02/JjHcY8.jpg" alt="JjHcY8.jpg"><br>[<strong>下载链接</strong>]  <a href="https://wh0911.lanzous.com/ic3xcxi" target="_blank" rel="noopener">https://wh0911.lanzous.com/ic3xcxi</a><br>[<strong>图文介绍</strong>]<br>●超级搜书, 一网打尽<br>你喜欢的书都能搜到, 打开即看, 无须等待<br>●海量书籍, 应有尽有<br>整合上百家内容平台, 几千万本书免费阅读<br>[<strong>新版特性</strong>]<br>v20.10<br>●新增热门书籍排行榜<br>●书单增加标签属性及类型数目<br>●书籍详情增加字数/更新日期/类型等信息<br>●优化会员积分和签到<br>●更新书源资料<br>●改进书单评论区操作<br>●点用户头像可查看该用户最近动态<br>●发帖|跟帖内容支持 HTML风格<br>●新增主题书单板块<br>●新增综合讨论板块<br>●新增书荒互助板块<br>●新增精彩书评板块</p>
-<p><img src="https://s1.ax1x.com/2020/05/02/JjHrwt.png" alt="JjHrwt.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjH6Ff.png" alt="JjH6Ff.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHDeI.png" alt="JjHDeI.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHsTP.png" alt="JjHsTP.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHgfS.png" alt="JjHgfS.png"></p>
-</body></html>]]></content>
-      <categories>
-        <category>软件</category>
+        <category>网络安全</category>
       </categories>
   </entry>
   <entry>
@@ -192,64 +205,30 @@ A A.标准访问列表
       </categories>
   </entry>
   <entry>
-    <title>网络安全10</title>
-    <url>/2020/04/21/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A810/</url>
-    <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQ7dK.jpg" alt="YKQ7dK.jpg"></p>
+    <title>【软件分享】</title>
+    <url>/2020/04/30/%E3%80%90%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E3%80%91/</url>
+    <content><![CDATA[<html><head></head><body><p><a href="https://imgchr.com/i/YKQORH" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/08/YKQORH.md.jpg" alt="YKQORH.md.jpg"></a></p>
 <a id="more"></a>
 <iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
 
-<h3>1、上传学习笔记、学习日志；</h3>
 
-<h3>2、简述信息搜集的内容和步骤。</h3>
-
-<p>内容：确定攻击目标，收集尽量多的关于攻击目的的信息，包括目标的操作系统类型及版本、目标提供哪些服务、各服务的类型、版本以及相关的社会信息。<br><br>步骤：(1)找到初始信息，比如一个IP地址或者一个域名;<br>(2)找到网络地址范围，或者子网掩码;<br>(3)找到活动机器;<br>(4)找到开放端口和入口点;<br>(5)弄清操作系统;<br>(6)弄清每个端口运行的是哪种服务;<br>(7)画出网络结构图</p>
-<h3>3、简述使用ARP协议、NetBIOS协议和WINS服务进行主机发现的区别。</h3>
-
-<p>ARP协议不支持路由功能，所以基于ARP的主机发现方式就不能够实现跨网段(路由)发现。虽然NetBIOS协议自身不支持路由功能，但是在Windows系统中，借助WINS协议，NetBIOS可以实现跨网段主机发现。</p>
-<h3>4、简述TCP端口扫描和UDP端口扫描的区别。</h3>
-
-<p>TCP面向连接(如打电话要先拨号建立连接);UDP是无连接的,即发送数据之前不需要建立连接。 CP提供可靠的服务。也就是说,通过TCP连接传送的数据,无差错,不丢失,不重复,且按序到达;UDP尽最大努力交付,即不保证可靠交付。 tcp通过校验和,重传控制,序号标识,滑动窗口、确认应答实现可靠传输。如丢包时的重发控制,还可以对次序乱掉的分包进行顺序控制。 UDP具有较好的实时性,工作效率比TCP高,适用于对高速传输和实时性有较高的通信或广播通信。 每一条TCP连接只能是点到点的;UDP支持一对一,一对多,多对一和多对多</p>
-<h3>5、简述漏洞扫描的方法。</h3>
-(1)漏洞库匹配法：通过采用漏洞规则匹配技术完成扫描。<br>
-(2)插件技术（功能模块技术）：插件是由脚本语言编写的子程序，可以通过调用它来执行漏洞扫描，检测系统中存在的漏洞。<br>
-(3)弱口令扫描法：口令使用简单的数字和字母组合，X-Scan工具中涵盖了很多种弱口令扫描方法，包括FTP、SMTP、SSH、POP3、IMAP、TELNET、WWW等。<br>
-
+<p>[<strong>软件名称</strong>]  搜书大师<br>[<strong>软件版本</strong>]  v20.10<br>[<strong>软件大小</strong>]  12.5M<br>[<strong>软件包名</strong>]  com.flyersoft.seebooks<br>[<strong>软件优势</strong>]  <img src="https://s1.ax1x.com/2020/05/02/JjHcY8.jpg" alt="JjHcY8.jpg"><br>[<strong>下载链接</strong>]  <a href="https://wh0911.lanzous.com/ic3xcxi" target="_blank" rel="noopener">https://wh0911.lanzous.com/ic3xcxi</a><br>[<strong>图文介绍</strong>]<br>●超级搜书, 一网打尽<br>你喜欢的书都能搜到, 打开即看, 无须等待<br>●海量书籍, 应有尽有<br>整合上百家内容平台, 几千万本书免费阅读<br>[<strong>新版特性</strong>]<br>v20.10<br>●新增热门书籍排行榜<br>●书单增加标签属性及类型数目<br>●书籍详情增加字数/更新日期/类型等信息<br>●优化会员积分和签到<br>●更新书源资料<br>●改进书单评论区操作<br>●点用户头像可查看该用户最近动态<br>●发帖|跟帖内容支持 HTML风格<br>●新增主题书单板块<br>●新增综合讨论板块<br>●新增书荒互助板块<br>●新增精彩书评板块</p>
+<p><img src="https://s1.ax1x.com/2020/05/02/JjHrwt.png" alt="JjHrwt.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjH6Ff.png" alt="JjH6Ff.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHDeI.png" alt="JjHDeI.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHsTP.png" alt="JjHsTP.png"><br><img src="https://s1.ax1x.com/2020/05/02/JjHgfS.png" alt="JjHgfS.png"></p>
 </body></html>]]></content>
       <categories>
-        <category>网络安全</category>
+        <category>软件</category>
       </categories>
   </entry>
   <entry>
-    <title>网络安全11</title>
-    <url>/2020/04/29/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A811/</url>
-    <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQ7dK.jpg" alt="YKQ7dK.jpg"></p>
+    <title>网络管理复学衔接测试（12）</title>
+    <url>/2020/05/09/%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%86%E5%A4%8D%E5%AD%A6%E8%A1%94%E6%8E%A5%E6%B5%8B%E8%AF%95%EF%BC%8812%EF%BC%89/</url>
+    <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQLJe.jpg" alt="YKQLJe.jpg"></p>
 <a id="more"></a>
-<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
+<h2>不保证全部正确！！！</h2>
 
 
-
-<h2>1、上传学习笔记、学习日志。</h2>
-<hr>
-  <h2>2、简述Dos、DDos的含义，说明SYN洪水攻击、ICMP洪水攻击、分布式拒绝服务攻击和Smurf攻击的原理（过程）。</h2>
-<hr>
-(1)Dos含义:Dos (Denial of Service)拒绝服务攻击是指在特定攻击发生后，被攻击的对象不能及时提供应有的服务。
-
-<p>(2)DDos:分布式拒绝服务攻击</p>
-<p>(3)SYN洪水攻击：如果服务器的TCP/IP栈不够强大，最后的结果是堆栈溢出崩溃服务器端的系统足够强大，服务器端也将忙于处理攻击者伪造的TCP连接请求而无暇理睬客户的正常请求。从正常客户的角度看来，服务器失去响应的情况称作服务器端受到了SYNFlood攻击(SYN洪水攻击)。</p>
-<p>(4)ICMP洪水攻击:如果攻击者向目标计算机发送大量的ICMP Request报文(产生ICMP洪水)，则目标计算机会忙于处理这些请求报文,而无法继续处理其它的网络数据报文，这也是一种拒绝服务攻击(DOS)。</p>
-<p>(5)分布式拒绝服务攻击:一个完整的DDoS攻击体系由攻击者、主控端、代理端和攻击目标四部分组成。主控端和代理端分别用于控制和实际发起攻击，其中主控端只发布命令而不参与实际的攻击，代理端发出DDoS的实际攻击包。对于主控端和代理端的计算机，攻击者有控制权或者部分控制权．它在攻击过程中会利用各种手段隐藏自己不被别人发现。真正的攻击者一旦将攻击的命令传送到主控端，攻击者就可以关闭或离开网络．而由主控端将命令发布到各个代理主机上。这样攻击者可以逃避追踪。每一个攻击代理主机都会向目标主机发送大量的服务请求数据包，这些数据包经过伪装，无法识别它的来源，而且这些数据包所请求的服务往往要消耗大量的系统资源，造成目标主机无法为用户提供正常服务。甚至导致系统崩溃。</p>
-<p>(6)smurf攻击:基于ICMP (Internet Control Message Protocol, Internet控制信息协议)的Smurf攻击是一种简单但有效的拒绝服务攻击技术，用一个伪造的源IP地址连续ping-一个或多个计算机网络，导致所有计算机所响应的目标主机并不是实际发出请求的原主机。伪造的源地址，实际上就是攻击的目标(受害主机)，将被极大数量的响应信息所淹没。对伪造数据包做出响应的计算机成为攻击的不知情的参与者。</p>
-<p>基于Internet的Smurf攻击过程：<br>(1)主控机锁定一个受害主机(通常是一些Web服务器)<br>(2)主控机寻找可做为傀儡机的站点，用来对攻击实施放大(通常会选择多个，以便更好地隐藏自己，伪装攻击)<br>(3)主控机给中间代理站点的广播地址发送大量的ICMP包(主要是ICMP回显请求数据包)，数据包全都以受害主机的IP地址做为源地址<br>(4)傀儡机向其所在的子网上的所有主机发送源IP地址欺骗的数据包<br>(5)傀儡机对受害主机进行响应</p>
- <h2>3、简述欺骗攻击的含义，说明ARP欺骗、ICMP重定向的原理（过程）。</h2>
-<hr>
-(1)欺骗攻击的含义:计算机伪装成被信任的主机来获取信息
-
-<p>(2)ARP欺骗:ARP的致命缺陷是:它不具备任何的认证机制。当有个人请求某个IP地址的MAC时，任何人都可以用MAC地址进行回复，并且这种响应也会被认为是合法的。<br>ARP并不只在发送了ARP请求后才接收ARP应答。当主机接收到ARP应答数据包的时候，就会对本机的ARP缓存进行更新，将应答中的IP和MAC地址存储在ARP缓存表中。此外，由于局城网中数据包不是根据IP地址，而是按照MAC地址进行传输的。</p>
-<p>(3)ICMP重定向:ICMP重定向报文是ICMP控制报文中的一种。在正常的情况下，当路由器检测到一台机器使用非优化路由的时候，它会向该主机发送一个ICMP重定向报文，请求主机改变路由。路由器也会把初始数据向它的目的地转发。</p>
+<p><a href="https://imgchr.com/i/YQ0FED" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0FED.jpg" alt="YQ0FED.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0PHO" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0PHO.jpg" alt="YQ0PHO.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0CDK" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0CDK.jpg" alt="YQ0CDK.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ09u6" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ09u6.jpg" alt="YQ09u6.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0Sjx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0Sjx.jpg" alt="YQ0Sjx.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0A4H" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0A4H.jpg" alt="YQ0A4H.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0kUe" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0kUe.jpg" alt="YQ0kUe.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0VCd" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0VCd.jpg" alt="YQ0VCd.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0Z8A" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0Z8A.jpg" alt="YQ0Z8A.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0egI" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0egI.jpg" alt="YQ0egI.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0mvt" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0mvt.md.jpg" alt="YQ0mvt.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0KDf" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0KDf.jpg" alt="YQ0KDf.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0uKP" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0uKP.jpg" alt="YQ0uKP.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0Mb8" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0Mb8.jpg" alt="YQ0Mb8.jpg" border="0"></a></p>
 </body></html>]]></content>
-      <categories>
-        <category>网络安全</category>
-      </categories>
   </entry>
   <entry>
     <title>网络安全9</title>
@@ -300,14 +279,35 @@ User组成员对某个资源拥有“读取”操作权限、Administrators组�
       </categories>
   </entry>
   <entry>
-    <title>网络管理复学衔接测试（12）</title>
-    <url>/2020/05/09/%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%86%E5%A4%8D%E5%AD%A6%E8%A1%94%E6%8E%A5%E6%B5%8B%E8%AF%95%EF%BC%8812%EF%BC%89/</url>
-    <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQLJe.jpg" alt="YKQLJe.jpg"></p>
+    <title>网络安全11</title>
+    <url>/2020/04/29/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A811/</url>
+    <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQ7dK.jpg" alt="YKQ7dK.jpg"></p>
 <a id="more"></a>
-<h2>不保证全部正确！！！</h2>
+<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
 
 
-<p><a href="https://imgchr.com/i/YQ0FED" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0FED.jpg" alt="YQ0FED.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0PHO" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0PHO.jpg" alt="YQ0PHO.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0CDK" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0CDK.jpg" alt="YQ0CDK.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ09u6" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ09u6.jpg" alt="YQ09u6.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0Sjx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0Sjx.jpg" alt="YQ0Sjx.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0A4H" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0A4H.jpg" alt="YQ0A4H.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0kUe" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0kUe.jpg" alt="YQ0kUe.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0VCd" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0VCd.jpg" alt="YQ0VCd.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0Z8A" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0Z8A.jpg" alt="YQ0Z8A.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0egI" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0egI.jpg" alt="YQ0egI.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0mvt" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0mvt.md.jpg" alt="YQ0mvt.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0KDf" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0KDf.jpg" alt="YQ0KDf.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0uKP" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0uKP.jpg" alt="YQ0uKP.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0Mb8" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0Mb8.jpg" alt="YQ0Mb8.jpg" border="0"></a></p>
+
+<h2>1、上传学习笔记、学习日志。</h2>
+<hr>
+  <h2>2、简述Dos、DDos的含义，说明SYN洪水攻击、ICMP洪水攻击、分布式拒绝服务攻击和Smurf攻击的原理（过程）。</h2>
+<hr>
+(1)Dos含义:Dos (Denial of Service)拒绝服务攻击是指在特定攻击发生后，被攻击的对象不能及时提供应有的服务。
+
+<p>(2)DDos:分布式拒绝服务攻击</p>
+<p>(3)SYN洪水攻击：如果服务器的TCP/IP栈不够强大，最后的结果是堆栈溢出崩溃服务器端的系统足够强大，服务器端也将忙于处理攻击者伪造的TCP连接请求而无暇理睬客户的正常请求。从正常客户的角度看来，服务器失去响应的情况称作服务器端受到了SYNFlood攻击(SYN洪水攻击)。</p>
+<p>(4)ICMP洪水攻击:如果攻击者向目标计算机发送大量的ICMP Request报文(产生ICMP洪水)，则目标计算机会忙于处理这些请求报文,而无法继续处理其它的网络数据报文，这也是一种拒绝服务攻击(DOS)。</p>
+<p>(5)分布式拒绝服务攻击:一个完整的DDoS攻击体系由攻击者、主控端、代理端和攻击目标四部分组成。主控端和代理端分别用于控制和实际发起攻击，其中主控端只发布命令而不参与实际的攻击，代理端发出DDoS的实际攻击包。对于主控端和代理端的计算机，攻击者有控制权或者部分控制权．它在攻击过程中会利用各种手段隐藏自己不被别人发现。真正的攻击者一旦将攻击的命令传送到主控端，攻击者就可以关闭或离开网络．而由主控端将命令发布到各个代理主机上。这样攻击者可以逃避追踪。每一个攻击代理主机都会向目标主机发送大量的服务请求数据包，这些数据包经过伪装，无法识别它的来源，而且这些数据包所请求的服务往往要消耗大量的系统资源，造成目标主机无法为用户提供正常服务。甚至导致系统崩溃。</p>
+<p>(6)smurf攻击:基于ICMP (Internet Control Message Protocol, Internet控制信息协议)的Smurf攻击是一种简单但有效的拒绝服务攻击技术，用一个伪造的源IP地址连续ping-一个或多个计算机网络，导致所有计算机所响应的目标主机并不是实际发出请求的原主机。伪造的源地址，实际上就是攻击的目标(受害主机)，将被极大数量的响应信息所淹没。对伪造数据包做出响应的计算机成为攻击的不知情的参与者。</p>
+<p>基于Internet的Smurf攻击过程：<br>(1)主控机锁定一个受害主机(通常是一些Web服务器)<br>(2)主控机寻找可做为傀儡机的站点，用来对攻击实施放大(通常会选择多个，以便更好地隐藏自己，伪装攻击)<br>(3)主控机给中间代理站点的广播地址发送大量的ICMP包(主要是ICMP回显请求数据包)，数据包全都以受害主机的IP地址做为源地址<br>(4)傀儡机向其所在的子网上的所有主机发送源IP地址欺骗的数据包<br>(5)傀儡机对受害主机进行响应</p>
+ <h2>3、简述欺骗攻击的含义，说明ARP欺骗、ICMP重定向的原理（过程）。</h2>
+<hr>
+(1)欺骗攻击的含义:计算机伪装成被信任的主机来获取信息
+
+<p>(2)ARP欺骗:ARP的致命缺陷是:它不具备任何的认证机制。当有个人请求某个IP地址的MAC时，任何人都可以用MAC地址进行回复，并且这种响应也会被认为是合法的。<br>ARP并不只在发送了ARP请求后才接收ARP应答。当主机接收到ARP应答数据包的时候，就会对本机的ARP缓存进行更新，将应答中的IP和MAC地址存储在ARP缓存表中。此外，由于局城网中数据包不是根据IP地址，而是按照MAC地址进行传输的。</p>
+<p>(3)ICMP重定向:ICMP重定向报文是ICMP控制报文中的一种。在正常的情况下，当路由器检测到一台机器使用非优化路由的时候，它会向该主机发送一个ICMP重定向报文，请求主机改变路由。路由器也会把初始数据向它的目的地转发。</p>
 </body></html>]]></content>
+      <categories>
+        <category>网络安全</category>
+      </categories>
   </entry>
 </search>
