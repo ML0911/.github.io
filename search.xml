@@ -16,25 +16,6 @@
       </categories>
   </entry>
   <entry>
-    <title>PHP9</title>
-    <url>/2020/04/14/PHP%E7%AC%AC%E4%B9%9D%E5%91%A8%E4%BD%9C%E4%B8%9A/</url>
-    <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQHIO.jpg" alt="YKQHIO.jpg"></p>
-<a id="more"></a>
-<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
-
-<h3>1、    简述MySQL数据库的发展历程。<br></h3>
-
-<p> (1)70年代,引进数据库,1976年萨师煊教授引进<br><br> (2)80年代,请进来,走出去;引进国外数据库人才,派遣国内专家去学习<br><br> (3)90年代,应用数据进行研究,开发资金的数据库<br><br> (4)21世纪,用数据库进行创新研究、产品开发、应用集成<br></p>
-<h3>2、    MySQL数据库的优点有哪些?<br></h3>
-
-<p>(1)使用标准的结构化查询语言——SQL访问数据库。<br><br>(2)开源软件、完全免费。<br><br>(3)服务器功能齐全，运行速度快，安全性高。<br><br>(4)支持多线程及多个不同的客户程序和管理工具。<br><br>(5)支持跨平台移植，无需修改。<br><br>(6)为多种程序设计语言提供支持，包括PHP、 ASP.NET. Java、Python、Ruby、 Tcl、 C、 C++、Perl语言等。<br></p>
-<h3>3、创建数据库student、创建表stu_info（提交mySQL代码）<br></h3>
-</body></html>]]></content>
-      <categories>
-        <category>PHP</category>
-      </categories>
-  </entry>
-  <entry>
     <title>PHP11</title>
     <url>/2020/04/28/PHP11/</url>
     <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQHIO.jpg" alt="YKQHIO.jpg"></p>
@@ -52,6 +33,25 @@
 1、选中文本框
 
 <p><a href="https://imgchr.com/i/Jj7Rq1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/02/Jj7Rq1.png" alt="Jj7Rq1.png"></a><br>2、</p><hr><br><a href="https://imgchr.com/i/Jj7fVx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/02/Jj7fVx.png" alt="Jj7fVx.png"></a><p></p>
+</body></html>]]></content>
+      <categories>
+        <category>PHP</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>PHP9</title>
+    <url>/2020/04/14/PHP%E7%AC%AC%E4%B9%9D%E5%91%A8%E4%BD%9C%E4%B8%9A/</url>
+    <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQHIO.jpg" alt="YKQHIO.jpg"></p>
+<a id="more"></a>
+<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
+
+<h3>1、    简述MySQL数据库的发展历程。<br></h3>
+
+<p> (1)70年代,引进数据库,1976年萨师煊教授引进<br><br> (2)80年代,请进来,走出去;引进国外数据库人才,派遣国内专家去学习<br><br> (3)90年代,应用数据进行研究,开发资金的数据库<br><br> (4)21世纪,用数据库进行创新研究、产品开发、应用集成<br></p>
+<h3>2、    MySQL数据库的优点有哪些?<br></h3>
+
+<p>(1)使用标准的结构化查询语言——SQL访问数据库。<br><br>(2)开源软件、完全免费。<br><br>(3)服务器功能齐全，运行速度快，安全性高。<br><br>(4)支持多线程及多个不同的客户程序和管理工具。<br><br>(5)支持跨平台移植，无需修改。<br><br>(6)为多种程序设计语言提供支持，包括PHP、 ASP.NET. Java、Python、Ruby、 Tcl、 C、 C++、Perl语言等。<br></p>
+<h3>3、创建数据库student、创建表stu_info（提交mySQL代码）<br></h3>
 </body></html>]]></content>
       <categories>
         <category>PHP</category>
@@ -86,34 +86,6 @@
 </body></html>]]></content>
       <categories>
         <category>软件</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>网络安全10</title>
-    <url>/2020/04/21/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A810/</url>
-    <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQ7dK.jpg" alt="YKQ7dK.jpg"></p>
-<a id="more"></a>
-<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
-
-<h3>1、上传学习笔记、学习日志；</h3>
-
-<h3>2、简述信息搜集的内容和步骤。</h3>
-
-<p>内容：确定攻击目标，收集尽量多的关于攻击目的的信息，包括目标的操作系统类型及版本、目标提供哪些服务、各服务的类型、版本以及相关的社会信息。<br><br>步骤：(1)找到初始信息，比如一个IP地址或者一个域名;<br>(2)找到网络地址范围，或者子网掩码;<br>(3)找到活动机器;<br>(4)找到开放端口和入口点;<br>(5)弄清操作系统;<br>(6)弄清每个端口运行的是哪种服务;<br>(7)画出网络结构图</p>
-<h3>3、简述使用ARP协议、NetBIOS协议和WINS服务进行主机发现的区别。</h3>
-
-<p>ARP协议不支持路由功能，所以基于ARP的主机发现方式就不能够实现跨网段(路由)发现。虽然NetBIOS协议自身不支持路由功能，但是在Windows系统中，借助WINS协议，NetBIOS可以实现跨网段主机发现。</p>
-<h3>4、简述TCP端口扫描和UDP端口扫描的区别。</h3>
-
-<p>TCP面向连接(如打电话要先拨号建立连接);UDP是无连接的,即发送数据之前不需要建立连接。 CP提供可靠的服务。也就是说,通过TCP连接传送的数据,无差错,不丢失,不重复,且按序到达;UDP尽最大努力交付,即不保证可靠交付。 tcp通过校验和,重传控制,序号标识,滑动窗口、确认应答实现可靠传输。如丢包时的重发控制,还可以对次序乱掉的分包进行顺序控制。 UDP具有较好的实时性,工作效率比TCP高,适用于对高速传输和实时性有较高的通信或广播通信。 每一条TCP连接只能是点到点的;UDP支持一对一,一对多,多对一和多对多</p>
-<h3>5、简述漏洞扫描的方法。</h3>
-(1)漏洞库匹配法：通过采用漏洞规则匹配技术完成扫描。<br>
-(2)插件技术（功能模块技术）：插件是由脚本语言编写的子程序，可以通过调用它来执行漏洞扫描，检测系统中存在的漏洞。<br>
-(3)弱口令扫描法：口令使用简单的数字和字母组合，X-Scan工具中涵盖了很多种弱口令扫描方法，包括FTP、SMTP、SSH、POP3、IMAP、TELNET、WWW等。<br>
-
-</body></html>]]></content>
-      <categories>
-        <category>网络安全</category>
       </categories>
   </entry>
   <entry>
@@ -220,6 +192,34 @@ A A.标准访问列表
       </categories>
   </entry>
   <entry>
+    <title>网络安全10</title>
+    <url>/2020/04/21/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A810/</url>
+    <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQ7dK.jpg" alt="YKQ7dK.jpg"></p>
+<a id="more"></a>
+<iframe width="450" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=1&bdc=%23&icon=1&wind=1&num=1&site=12"></iframe>
+
+<h3>1、上传学习笔记、学习日志；</h3>
+
+<h3>2、简述信息搜集的内容和步骤。</h3>
+
+<p>内容：确定攻击目标，收集尽量多的关于攻击目的的信息，包括目标的操作系统类型及版本、目标提供哪些服务、各服务的类型、版本以及相关的社会信息。<br><br>步骤：(1)找到初始信息，比如一个IP地址或者一个域名;<br>(2)找到网络地址范围，或者子网掩码;<br>(3)找到活动机器;<br>(4)找到开放端口和入口点;<br>(5)弄清操作系统;<br>(6)弄清每个端口运行的是哪种服务;<br>(7)画出网络结构图</p>
+<h3>3、简述使用ARP协议、NetBIOS协议和WINS服务进行主机发现的区别。</h3>
+
+<p>ARP协议不支持路由功能，所以基于ARP的主机发现方式就不能够实现跨网段(路由)发现。虽然NetBIOS协议自身不支持路由功能，但是在Windows系统中，借助WINS协议，NetBIOS可以实现跨网段主机发现。</p>
+<h3>4、简述TCP端口扫描和UDP端口扫描的区别。</h3>
+
+<p>TCP面向连接(如打电话要先拨号建立连接);UDP是无连接的,即发送数据之前不需要建立连接。 CP提供可靠的服务。也就是说,通过TCP连接传送的数据,无差错,不丢失,不重复,且按序到达;UDP尽最大努力交付,即不保证可靠交付。 tcp通过校验和,重传控制,序号标识,滑动窗口、确认应答实现可靠传输。如丢包时的重发控制,还可以对次序乱掉的分包进行顺序控制。 UDP具有较好的实时性,工作效率比TCP高,适用于对高速传输和实时性有较高的通信或广播通信。 每一条TCP连接只能是点到点的;UDP支持一对一,一对多,多对一和多对多</p>
+<h3>5、简述漏洞扫描的方法。</h3>
+(1)漏洞库匹配法：通过采用漏洞规则匹配技术完成扫描。<br>
+(2)插件技术（功能模块技术）：插件是由脚本语言编写的子程序，可以通过调用它来执行漏洞扫描，检测系统中存在的漏洞。<br>
+(3)弱口令扫描法：口令使用简单的数字和字母组合，X-Scan工具中涵盖了很多种弱口令扫描方法，包括FTP、SMTP、SSH、POP3、IMAP、TELNET、WWW等。<br>
+
+</body></html>]]></content>
+      <categories>
+        <category>网络安全</category>
+      </categories>
+  </entry>
+  <entry>
     <title>网络安全11</title>
     <url>/2020/04/29/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A811/</url>
     <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQ7dK.jpg" alt="YKQ7dK.jpg"></p>
@@ -305,19 +305,10 @@ User组成员对某个资源拥有“读取”操作权限、Administrators组�
     <content><![CDATA[<html><head></head><body><p><img src="https://s1.ax1x.com/2020/05/08/YKQLJe.jpg" alt="YKQLJe.jpg"></p>
 <a id="more"></a>
 <h2>不保证全部正确！！！</h2>
-![YQ0FED.jpg](https://s1.ax1x.com/2020/05/09/YQ0FED.jpg)
-![YQ0PHO.jpg](https://s1.ax1x.com/2020/05/09/YQ0PHO.jpg)
-![YQ0CDK.jpg](https://s1.ax1x.com/2020/05/09/YQ0CDK.jpg)
-![YQ09u6.jpg](https://s1.ax1x.com/2020/05/09/YQ09u6.jpg)
-![YQ0Sjx.jpg](https://s1.ax1x.com/2020/05/09/YQ0Sjx.jpg)
-![YQ0A4H.jpg](https://s1.ax1x.com/2020/05/09/YQ0A4H.jpg)
-![YQ0kUe.jpg](https://s1.ax1x.com/2020/05/09/YQ0kUe.jpg)
-![YQ0VCd.jpg](https://s1.ax1x.com/2020/05/09/YQ0VCd.jpg)
-![YQ0Z8A.jpg](https://s1.ax1x.com/2020/05/09/YQ0Z8A.jpg)
-![YQ0egI.jpg](https://s1.ax1x.com/2020/05/09/YQ0egI.jpg)
-![YQ0mvt.jpg](https://s1.ax1x.com/2020/05/09/YQ0mvt.jpg)
-![YQ0KDf.jpg](https://s1.ax1x.com/2020/05/09/YQ0KDf.jpg)
-![YQ0uKP.jpg](https://s1.ax1x.com/2020/05/09/YQ0uKP.jpg)
-![YQ0Mb8.jpg](https://s1.ax1x.com/2020/05/09/YQ0Mb8.jpg)</body></html>]]></content>
+<h2>顺序混乱，注意题号</h2>
+
+<p><a href="https://imgchr.com/i/YQ0FED" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0FED.jpg" alt="YQ0FED.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0PHO" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0PHO.jpg" alt="YQ0PHO.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0CDK" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0CDK.jpg" alt="YQ0CDK.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ09u6" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ09u6.jpg" alt="YQ09u6.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0Sjx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0Sjx.jpg" alt="YQ0Sjx.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0A4H" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0A4H.jpg" alt="YQ0A4H.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0kUe" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0kUe.jpg" alt="YQ0kUe.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0VCd" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0VCd.jpg" alt="YQ0VCd.jpg" border="0"></a></p>
+<p><a href="https://imgchr.com/i/YQ0mvt" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0mvt.jpg" alt="YQ0mvt.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0egI" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0egI.jpg" alt="YQ0egI.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0uKP" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0uKP.jpg" alt="YQ0uKP.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0KDf" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0KDf.jpg" alt="YQ0KDf.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0Mb8" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0Mb8.jpg" alt="YQ0Mb8.jpg" border="0"></a><br><a href="https://imgchr.com/i/YQ0Mb8" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/09/YQ0Mb8.jpg" alt="YQ0Mb8.jpg" border="0"></a></p>
+</body></html>]]></content>
   </entry>
 </search>
