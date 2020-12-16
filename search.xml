@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>新建管理员账户</title>
-    <url>/2020/09/14/%E8%B4%A6%E6%88%B7/</url>
-    <content><![CDATA[<center>在PE下新建管理员账户</center>
+    <title>Win10蓝屏</title>
+    <url>/2020/09/27/%E8%93%9D%E5%B1%8F1/</url>
+    <content><![CDATA[<center>Win10蓝屏终止代码:NTFS FILE SYSTEM</center>
 
 <a id="more"></a>
 
-
-<p>1、使用U盘制作一个PE系统，这里推荐老毛桃、大白菜、U启通</p>
-<p>2、开机进入BIOS，选择U盘启动</p>
-<p>3、进入U盘启动画面之后选择一个PE系统</p>
-<p>4、进入PE系统后，去本机系统盘，将C:/Windows/system32/osk.exe 做个备份</p>
-<p>5、将同路径下的cmd.exe重命名为osk.exe</p>
-<p>6、重启，进入Windows登录界面，选择辅助功能（登录界面右下角），开启屏幕小键盘</p>
-<p>7、此时弹出来的是命令提示符，新增一个用户，输入</p>
+<p>1、连续三次按开关机键进入高级选项</p>
+<p>2、选择命令提示符（Shift+F12）</p>
+<p>3、输入</p>
 <blockquote>
-<p>  net user 用户名 密码 /add</p>
+<p>  chkdsk C：/f</p>
 </blockquote>
-<p>8、再将刚才新增的用户添加到管理员组，输入 </p>
-<blockquote>
-<p>  net lopcalgroup administrators 用户名 /add</p>
-</blockquote>
-<p>9、重启，使用刚才新增的用户名密码登录</p>
+<p>4、等待命令完成后重启</p>
 ]]></content>
       <categories>
-        <category>Windows</category>
+        <category>Win10</category>
       </categories>
   </entry>
   <entry>
@@ -105,6 +96,34 @@
 ]]></content>
       <categories>
         <category>美化</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>新建管理员账户</title>
+    <url>/2020/09/14/%E8%B4%A6%E6%88%B7/</url>
+    <content><![CDATA[<center>在PE下新建管理员账户</center>
+
+<a id="more"></a>
+
+
+<p>1、使用U盘制作一个PE系统，这里推荐老毛桃、大白菜、U启通</p>
+<p>2、开机进入BIOS，选择U盘启动</p>
+<p>3、进入U盘启动画面之后选择一个PE系统</p>
+<p>4、进入PE系统后，去本机系统盘，将C:/Windows/system32/osk.exe 做个备份</p>
+<p>5、将同路径下的cmd.exe重命名为osk.exe</p>
+<p>6、重启，进入Windows登录界面，选择辅助功能（登录界面右下角），开启屏幕小键盘</p>
+<p>7、此时弹出来的是命令提示符，新增一个用户，输入</p>
+<blockquote>
+<p>  net user 用户名 密码 /add</p>
+</blockquote>
+<p>8、再将刚才新增的用户添加到管理员组，输入 </p>
+<blockquote>
+<p>  net lopcalgroup administrators 用户名 /add</p>
+</blockquote>
+<p>9、重启，使用刚才新增的用户名密码登录</p>
+]]></content>
+      <categories>
+        <category>Windows</category>
       </categories>
   </entry>
 </search>

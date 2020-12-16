@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ml0911.github.io/"/>
-  <updated>2020-12-14T08:11:52.638Z</updated>
+  <updated>2020-12-16T01:36:50.996Z</updated>
   <id>https://ml0911.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Win10蓝屏</title>
+    <link href="https://ml0911.github.io/2020/09/27/%E8%93%9D%E5%B1%8F1/"/>
+    <id>https://ml0911.github.io/2020/09/27/%E8%93%9D%E5%B1%8F1/</id>
+    <published>2020-09-27T06:00:59.000Z</published>
+    <updated>2020-12-16T01:36:50.996Z</updated>
+    
+    <content type="html"><![CDATA[<center>Win10蓝屏终止代码:NTFS FILE SYSTEM</center><a id="more"></a><p>1、连续三次按开关机键进入高级选项</p><p>2、选择命令提示符（Shift+F12）</p><p>3、输入</p><blockquote><p>  chkdsk C：/f</p></blockquote><p>4、等待命令完成后重启</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;center&gt;Win10蓝屏终止代码:NTFS FILE SYSTEM&lt;/center&gt;
+    
+    </summary>
+    
+    
+      <category term="Win10" scheme="https://ml0911.github.io/categories/Win10/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>新建管理员账户</title>
