@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ml0911.github.io/"/>
-  <updated>2020-12-16T01:36:50.996Z</updated>
+  <updated>2020-12-23T01:26:28.147Z</updated>
   <id>https://ml0911.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ml0911.github.io/2020/09/27/%E8%93%9D%E5%B1%8F1/"/>
     <id>https://ml0911.github.io/2020/09/27/%E8%93%9D%E5%B1%8F1/</id>
     <published>2020-09-27T06:00:59.000Z</published>
-    <updated>2020-12-16T01:36:50.996Z</updated>
+    <updated>2020-12-23T01:26:28.147Z</updated>
     
     <content type="html"><![CDATA[<center>Win10蓝屏终止代码:NTFS FILE SYSTEM</center><a id="more"></a><p>1、连续三次按开关机键进入高级选项</p><p>2、选择命令提示符（Shift+F12）</p><p>3、输入</p><blockquote><p>  chkdsk C：/f</p></blockquote><p>4、等待命令完成后重启</p>]]></content>
     
@@ -35,6 +35,10 @@
       <category term="Win10" scheme="https://ml0911.github.io/categories/Win10/"/>
     
     
+      <category term="Windows" scheme="https://ml0911.github.io/tags/Windows/"/>
+    
+      <category term="蓝屏" scheme="https://ml0911.github.io/tags/%E8%93%9D%E5%B1%8F/"/>
+    
   </entry>
   
   <entry>
@@ -42,7 +46,7 @@
     <link href="https://ml0911.github.io/2020/09/14/%E8%B4%A6%E6%88%B7/"/>
     <id>https://ml0911.github.io/2020/09/14/%E8%B4%A6%E6%88%B7/</id>
     <published>2020-09-14T07:42:22.000Z</published>
-    <updated>2020-12-14T08:11:52.638Z</updated>
+    <updated>2020-12-23T01:22:47.817Z</updated>
     
     <content type="html"><![CDATA[<center>在PE下新建管理员账户</center><a id="more"></a><p>1、使用U盘制作一个PE系统，这里推荐老毛桃、大白菜、U启通</p><p>2、开机进入BIOS，选择U盘启动</p><p>3、进入U盘启动画面之后选择一个PE系统</p><p>4、进入PE系统后，去本机系统盘，将C:/Windows/system32/osk.exe 做个备份</p><p>5、将同路径下的cmd.exe重命名为osk.exe</p><p>6、重启，进入Windows登录界面，选择辅助功能（登录界面右下角），开启屏幕小键盘</p><p>7、此时弹出来的是命令提示符，新增一个用户，输入</p><blockquote><p>  net user 用户名 密码 /add</p></blockquote><p>8、再将刚才新增的用户添加到管理员组，输入 </p><blockquote><p>  net lopcalgroup administrators 用户名 /add</p></blockquote><p>9、重启，使用刚才新增的用户名密码登录</p>]]></content>
     
@@ -56,6 +60,12 @@
       <category term="Windows" scheme="https://ml0911.github.io/categories/Windows/"/>
     
     
+      <category term="Windows" scheme="https://ml0911.github.io/tags/Windows/"/>
+    
+      <category term="管理员" scheme="https://ml0911.github.io/tags/%E7%AE%A1%E7%90%86%E5%91%98/"/>
+    
+      <category term="账户" scheme="https://ml0911.github.io/tags/%E8%B4%A6%E6%88%B7/"/>
+    
   </entry>
   
   <entry>
@@ -63,7 +73,7 @@
     <link href="https://ml0911.github.io/2020/06/18/%E7%BE%8E%E5%8C%96%E8%AE%A1/"/>
     <id>https://ml0911.github.io/2020/06/18/%E7%BE%8E%E5%8C%96%E8%AE%A1/</id>
     <published>2020-06-18T13:17:15.000Z</published>
-    <updated>2020-08-19T10:31:04.054Z</updated>
+    <updated>2020-12-23T01:26:03.740Z</updated>
     
     <content type="html"><![CDATA[<center>Windows美化记</center><a id="more"></a><p>电脑是一个好东西”–鲁迅</p><p>那好吧，今天就给大家快速肝出一篇Windows美化教程吧</p><p>美化记：</p><p>首先，你必须要懂英文，一个无脑者，来搞美化，是不是有点白眼（我也不懂英文……虽然有些是中文的）</p><p>当然也没关系，里面都有详细的教程，实在不行，照我的做，那好，现在就开始吧！</p><p>外部，也就是桌面</p><p>1.工具栏美化&amp;屏幕略微美化</p><p>介绍：在这里推荐一款软件BitDock比特工具栏</p><p>比特工具栏界面美观，功能实用，支持图标拖拽操作，支持多显示器设置，支持个性化设置，支持png，jpg，gif等多种格式</p><p>当然，如果不嫌麻烦，甚至可以设置开机自启</p><p><img src="https://s1.ax1x.com/2020/08/19/d1F1G4.jpg" alt="d1F1G4.jpg"></p><p>我们先打开它<br>工具栏界面特别简洁<br>并且随着鼠标移动的方向移动<br>性格图标甚至可以自己更改</p><p><img src="https://s1.ax1x.com/2020/08/19/d1FYs1.jpg" alt="d1FYs1.jpg"></p><p>这里改成Windows10性格图标<br>怎么改呢？点击屏幕下工具栏的系统设置，再点击美化使用WINDOWS 10，图标就可以了</p><p><img src="https://s1.ax1x.com/2020/08/19/d1F8z9.jpg" alt="d1F8z9.jpg"></p><p>不要嫌工具栏，图标太大，自己可以任意更改风格，甚至可以隐藏或模糊WINDOWS<br>10的系统任务栏<br>在设置美化里面，甚至可以使屏幕圆角美化<br>在位置那里更改图标大小，甚至它还自带应用商店，应用中心是WINDOWS<br>10整理碎片的图标了如果不点开，还真是看不到-_-||</p><p><img src="https://s1.ax1x.com/2020/08/19/d1FJMR.jpg" alt="d1FJMR.jpg"></p><p>托盘风格也是可以自己更改的！<br>在系统应用里，比特工具也是特别实用的<br>这里可以点开看看看<br>如果想删除哪个图标，直接右击删除</p><p><img src="https://s1.ax1x.com/2020/08/19/d1F3RJ.jpg" alt="d1F3RJ.jpg"></p><p>如果卡死，就在设置里点击重启<br>定时关机，也可以设置哦(´-ω-`)</p><p><img src="https://s1.ax1x.com/2020/08/19/d1Ftqx.jpg" alt="d1Ftqx.jpg"></p><p>launchpad界面</p><p><img src="https://s1.ax1x.com/2020/08/19/d1FUZ6.jpg" alt="d1FUZ6.jpg"></p><p>系统关机界面</p><p><img src="https://s1.ax1x.com/2020/08/19/d1FadK.jpg" alt="d1FadK.jpg"></p><p>如果自己换电脑了，甚至可以把数据导出，在新的电脑上使用<br>总之，拥有了他，你就可以，无拘无束的使用<br>自己的电脑了！  </p><p>2.简洁小工具略微美化  </p><p>可能有人好奇问，这东西是个啥？</p><p><img src="https://s1.ax1x.com/2020/08/19/d1F0iD.jpg" alt="d1F0iD.jpg"></p><p>其实这也是一款非常简洁的小工具，你可以时时看到自己的网速，内存占用率，CPU占用率等<br>小巧美观，不影响正常使用</p><p><img src="https://s1.ax1x.com/2020/08/19/d1FdIO.jpg" alt="d1FdIO.jpg"></p><p>3.桌面下雪（完全是锦上添花）</p><p>当然桌面飘的不一定是雪哟</p><p>你更改算法，甚至可以让雪向上飘</p><p>图像纹理是英文的，我都说了我不一定能看懂，只能一个一个去试</p><p>用出来了，甚至可以让他飘足球，飘黄叶子，甚至可以满屏的飘星星</p><p>透明度速度什么的也都是可以自己设计的，尽量选用一些搭配降雪的电脑壁纸，也可以装b玩玩</p><p><img src="https://s1.ax1x.com/2020/08/19/d1FBJe.jpg" alt="d1FBJe.jpg"></p><p>4.WINDOWS 10系统美化（完全是英文的）  </p><p>其实我也看不怎么懂，只是借助下载时的帮助文件看的或翻译君</p><p><img src="https://s1.ax1x.com/2020/08/19/d1FyQA.jpg" alt="d1FyQA.jpg"></p><p>win10桌面图标设置方法教程<br>win10操作系统这里一般情况都没有显示出计算机图标的<br>又接设置选择个性化，点击更改桌面图标，换成自己喜欢的<br>设置完成以后，必须重启才可以使用</p><p><img src="https://s1.ax1x.com/2020/08/19/d1FDRH.jpg" alt="d1FDRH.jpg"></p><p>我使用了之后就有点bug更改桌面壁纸试试看<br>对于这个软件，我也没有仔细研究，不过认识了英语之后再说吧（压缩打包文件里有帮助文档可以看看）  </p><p>不过我大概统计了一下，就是把WINDOWS 10变换成WINDOWS 7或WINDOWS<br>8系统设置，WINDOWS10功能还能用，适用于不熟悉WINDOWS 10的小伙伴们使用  </p><p>5..WINDOWS10桌面壁纸  </p><p>这东西其实没有什么好说的只是WINDOWS 10壁纸而已，不过需要了解：<br>微软Win10系统的默认壁纸名为Hero，据悉其是通过一些物理手段辅助打造出来的，现在有消息称，在新版Win10<br>Cloud系统中包含着新风格壁纸。</p><p><img src="https://s1.ax1x.com/2020/08/19/d1F6sI.jpg" alt="d1F6sI.jpg"></p><p>可能是WINDOWS 10壁纸的另一个版本，变得更光彩了连色泽都变了</p><p><img src="https://s1.ax1x.com/2020/08/19/d1Frzd.jpg" alt="d1Frzd.jpg"></p><p>6.护眼装置  </p><p>F.lux自动护眼工具特别不错它有着大自然时间的色才彩，比如中午12点，它是白色的<br>当夜晚20点时，他就会刚改色泽，当然自己也可以更改时间段<br>这只是为了让你的眼睛舒服一些<br>不需要懂英文也可以理解，只需要简简单单的更改时间段，也可以达到护眼的效果</p><p><img src="https://s1.ax1x.com/2020/08/19/d1FcLt.jpg" alt="d1FcLt.jpg"></p><p><img src="https://s1.ax1x.com/2020/08/19/d1F2eP.jpg" alt="d1F2eP.jpg"></p><p>7.WINDOWS 10图标美化（pure轻语）  </p><p>非常感谢电脑ico格式的提供者@夏末秋柒 ，我们只要把压缩文件下载下来，并且解压到图片文件夹里，就可以更改自己喜欢的主题了（千万不要解压到桌面，不然你会……）</p><p><img src="https://s1.ax1x.com/2020/08/19/d1FRdf.jpg" alt="d1FRdf.jpg"></p><p>右击想要更改图标的软件，点击属性，点击更改图图标<br>或者右击空白桌面个性化，点击更改桌面图标设置，点击更改图标，选择你压缩到的文件夹，选择自己喜欢的图片<br>图片有点多，不过只要耐心找就能找到自己喜欢的图标（一共2890个图标，够你选的了）共1.3<br>多GB</p><p><img src="https://s1.ax1x.com/2020/08/19/d1FWo8.jpg" alt="d1FWo8.jpg"></p><p>8.个性化桌面定制工具  </p><p>你可以在这里面操控一些小工具（虽然这也是英文）<br>1.可支持显示天气状况，邮箱，rss源等<br>2.可支持显示各种系统信息，如内存信息，硬盘容量，CPU，网络状态等<br>3.可支持帮助你快速启动某些工具或软件<br>在这里你甚至也可以更换皮肤</p><p><img src="https://s1.ax1x.com/2020/08/19/d1FhFS.jpg" alt="d1FhFS.jpg"></p><p><img src="https://s1.ax1x.com/2020/08/19/d1F4Jg.jpg" alt="d1F4Jg.jpg"></p><p>9.闹钟  </p><p>这款闹钟软件是很不错的铃声，也可以自己设置为的是更方便的提醒工作者们</p><p><img src="https://s1.ax1x.com/2020/08/19/d1F5WQ.jpg" alt="d1F5WQ.jpg"></p><p>桌面美化记在这里就结束了，网站服务受限，暂不提供下载</p>]]></content>
     
@@ -76,6 +86,12 @@
     
       <category term="美化" scheme="https://ml0911.github.io/categories/%E7%BE%8E%E5%8C%96/"/>
     
+    
+      <category term="Windows" scheme="https://ml0911.github.io/tags/Windows/"/>
+    
+      <category term="美化" scheme="https://ml0911.github.io/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+      <category term="软件" scheme="https://ml0911.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   

@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Win10蓝屏</title>
-    <url>/2020/09/27/%E8%93%9D%E5%B1%8F1/</url>
-    <content><![CDATA[<center>Win10蓝屏终止代码:NTFS FILE SYSTEM</center>
-
-<a id="more"></a>
-
-<p>1、连续三次按开关机键进入高级选项</p>
-<p>2、选择命令提示符（Shift+F12）</p>
-<p>3、输入</p>
-<blockquote>
-<p>  chkdsk C：/f</p>
-</blockquote>
-<p>4、等待命令完成后重启</p>
-]]></content>
-      <categories>
-        <category>Win10</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Windows美化记</title>
     <url>/2020/06/18/%E7%BE%8E%E5%8C%96%E8%AE%A1/</url>
     <content><![CDATA[<center>Windows美化记</center>
@@ -97,6 +78,34 @@
       <categories>
         <category>美化</category>
       </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>美化</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Win10蓝屏</title>
+    <url>/2020/09/27/%E8%93%9D%E5%B1%8F1/</url>
+    <content><![CDATA[<center>Win10蓝屏终止代码:NTFS FILE SYSTEM</center>
+
+<a id="more"></a>
+
+<p>1、连续三次按开关机键进入高级选项</p>
+<p>2、选择命令提示符（Shift+F12）</p>
+<p>3、输入</p>
+<blockquote>
+<p>  chkdsk C：/f</p>
+</blockquote>
+<p>4、等待命令完成后重启</p>
+]]></content>
+      <categories>
+        <category>Win10</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>蓝屏</tag>
+      </tags>
   </entry>
   <entry>
     <title>新建管理员账户</title>
@@ -125,5 +134,10 @@
       <categories>
         <category>Windows</category>
       </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>管理员</tag>
+        <tag>账户</tag>
+      </tags>
   </entry>
 </search>
